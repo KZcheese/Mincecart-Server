@@ -1,0 +1,1 @@
+java -Xms4G -Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:ReservedCodeCacheSize=2G -XX:SoftRefLRUPolicyMSPerMB=6000 -XX:ParallelGCThreads=8 -d64 -jar forge-1.16.5-36.2.20.jar nogui
