@@ -1,0 +1,187 @@
+{
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-03-08 20:20:09 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "fried_rice": "2022-03-08 20:29:42 -0500"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:pillager": "2022-03-08 20:27:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:pillager": "2022-03-08 20:27:49 -0500",
+      "minecraft:enderman": "2022-03-09 17:05:12 -0500",
+      "minecraft:zombie": "2022-03-08 20:33:30 -0500"
+    },
+    "done": false
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2022-03-08 20:19:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2022-03-08 20:25:06 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mushroom_village": {
+    "criteria": {
+      "location0": "2022-03-08 21:09:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2022-03-08 21:23:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "apple": "2022-03-08 20:29:04 -0500"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2022-03-08 20:21:46 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "woodland": "2022-03-08 20:25:54 -0500",
+      "shrubland": "2022-03-08 20:58:37 -0500",
+      "rocky_shrubland": "2022-03-08 20:46:07 -0500",
+      "scrubland": "2022-03-08 20:39:51 -0500",
+      "bayou": "2022-03-12 21:49:22 -0500",
+      "marsh": "2022-03-08 21:06:38 -0500",
+      "clover_patch": "2022-03-08 20:47:48 -0500",
+      "old_growth_woodland": "2022-03-08 21:21:01 -0500",
+      "lavender_forest": "2022-03-08 20:42:45 -0500",
+      "mediterranean_forest": "2022-03-08 20:27:12 -0500",
+      "spider_nest": "2022-03-08 20:28:47 -0500",
+      "redwood_forest": "2022-03-08 20:44:07 -0500",
+      "highland_moor": "2022-03-08 20:50:17 -0500",
+      "lavender_field": "2022-03-08 20:40:53 -0500",
+      "grassland": "2022-03-08 20:52:30 -0500",
+      "rainforest": "2022-03-08 21:18:52 -0500"
+    },
+    "done": false
+  },
+  "dungeons_arise:find_small_prairie_house": {
+    "criteria": {
+      "location0": "2022-03-08 20:41:01 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_merchant_campsite": {
+    "criteria": {
+      "location0": "2022-03-08 20:52:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2022-03-08 21:18:51 -0500",
+      "minecraft:windswept_hills": "2022-03-08 21:05:41 -0500",
+      "minecraft:beach": "2022-03-08 20:27:32 -0500",
+      "minecraft:lukewarm_ocean": "2022-03-08 21:17:02 -0500",
+      "minecraft:river": "2022-03-08 21:03:41 -0500",
+      "minecraft:dripstone_caves": "2022-03-08 20:19:35 -0500",
+      "minecraft:swamp": "2022-03-08 21:05:45 -0500",
+      "minecraft:forest": "2022-03-08 20:20:11 -0500",
+      "minecraft:ocean": "2022-03-08 21:18:32 -0500",
+      "minecraft:windswept_savanna": "2022-03-08 21:14:44 -0500",
+      "minecraft:savanna": "2022-03-08 21:25:46 -0500",
+      "minecraft:plains": "2022-03-08 21:03:21 -0500"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "woodland": "2022-03-08 20:25:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2022-03-08 20:48:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-03-08 20:29:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2022-03-08 20:49:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-03-08 20:21:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-03-08 20:21:30 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_giant_mushroom": {
+    "criteria": {
+      "location0": "2022-03-08 20:46:01 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2022-03-08 20:29:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2022-03-08 20:49:05 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_fishing_hut": {
+    "criteria": {
+      "location0": "2022-03-08 21:26:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-03-08 20:27:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2022-03-08 20:53:53 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 2865
+}
