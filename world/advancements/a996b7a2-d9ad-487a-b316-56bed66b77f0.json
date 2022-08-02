@@ -1,0 +1,459 @@
+{
+  "minecolonies:minecraft/craft_supply": {
+    "criteria": {
+      "supply_ship": "2022-07-28 21:41:43 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/citizen_eat_food_first": {
+    "criteria": {
+      "citizen_eat_anything": "2022-07-30 23:23:11 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "ratatouille": "2022-07-30 23:22:15 -0400"
+    },
+    "done": false
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "cabbage": "2022-07-30 09:13:03 -0400",
+      "onion": "2022-07-28 22:28:13 -0400",
+      "tomato": "2022-07-28 22:28:09 -0400",
+      "beetroot": "2022-07-28 22:28:22 -0400",
+      "sugar_cane": "2022-07-30 09:47:54 -0400",
+      "potato": "2022-07-28 22:28:16 -0400",
+      "wheat": "2022-07-28 22:27:49 -0400",
+      "carrot": "2022-07-28 22:28:11 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:enderman": "2022-07-27 22:29:58 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_windmill": {
+    "criteria": {
+      "location0": "2022-07-29 07:04:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2022-07-29 19:14:34 -0400",
+      "minecraft:bee": "2022-07-31 11:18:18 -0400"
+    },
+    "done": false
+  },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2022-07-28 21:48:22 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2022-07-29 19:15:16 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2022-07-29 19:27:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2022-07-28 22:23:48 -0400"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2022-07-28 21:47:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2022-07-30 10:38:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2022-07-29 17:51:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2022-07-27 22:39:15 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:production/build_fisherman": {
+    "criteria": {
+      "fisherman": "2022-07-31 01:14:23 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/colony_population_10": {
+    "criteria": {
+      "population_10": "2022-07-31 00:07:24 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/build_citizen": {
+    "criteria": {
+      "citizens_hut": "2022-07-29 07:45:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2022-07-27 22:35:53 -0400",
+      "minecraft:frozen_river": "2022-07-29 07:10:11 -0400",
+      "minecraft:sunflower_plains": "2022-07-29 19:43:39 -0400",
+      "minecraft:birch_forest": "2022-07-30 10:18:11 -0400",
+      "minecraft:bamboo_jungle": "2022-07-30 10:21:04 -0400",
+      "minecraft:beach": "2022-07-27 22:24:58 -0400",
+      "minecraft:dark_forest": "2022-07-30 10:19:01 -0400",
+      "minecraft:sparse_jungle": "2022-07-30 10:21:11 -0400",
+      "minecraft:river": "2022-07-27 22:27:31 -0400",
+      "minecraft:lukewarm_ocean": "2022-07-30 10:25:28 -0400",
+      "minecraft:stony_shore": "2022-07-28 21:23:32 -0400",
+      "minecraft:snowy_plains": "2022-07-29 07:02:44 -0400",
+      "minecraft:snowy_taiga": "2022-07-29 18:07:03 -0400",
+      "minecraft:dripstone_caves": "2022-07-31 10:50:19 -0400",
+      "minecraft:grove": "2022-07-27 22:35:54 -0400",
+      "minecraft:cold_ocean": "2022-07-30 09:49:20 -0400",
+      "minecraft:forest": "2022-07-28 22:02:44 -0400",
+      "minecraft:deep_cold_ocean": "2022-07-30 09:53:31 -0400",
+      "minecraft:ocean": "2022-07-27 22:25:00 -0400",
+      "minecraft:jungle": "2022-07-30 10:26:10 -0400",
+      "minecraft:flower_forest": "2022-07-28 21:22:17 -0400",
+      "minecraft:old_growth_birch_forest": "2022-07-30 10:19:50 -0400",
+      "minecraft:meadow": "2022-07-27 22:32:38 -0400",
+      "minecraft:savanna": "2022-07-30 10:28:22 -0400",
+      "minecraft:plains": "2022-07-27 22:24:15 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2022-07-27 22:41:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2022-07-31 17:40:38 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_undead_pirate_ship": {
+    "criteria": {
+      "location0": "2022-07-30 09:54:15 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/build_tavern": {
+    "criteria": {
+      "tavern": "2022-07-30 22:03:54 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/root": {
+    "criteria": {
+      "supply_ship_placed": "2022-07-28 21:41:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-07-27 22:33:06 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/colony_population_5": {
+    "criteria": {
+      "population_5": "2022-07-30 20:14:04 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:military/root": {
+    "criteria": {
+      "guardtower": "2022-07-29 18:42:56 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:production/root": {
+    "criteria": {
+      "builders_hut": "2022-07-29 07:15:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-07-27 22:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2022-07-28 22:27:49 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+    "criteria": {
+      "location0": "2022-07-30 09:53:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2022-07-29 06:48:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-07-29 17:51:48 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-07-27 22:26:47 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "tomato_seeds": "2022-07-27 22:40:52 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/start_builder": {
+    "criteria": {
+      "builder_request": "2022-07-28 21:58:15 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/build_guard_tower": {
+    "criteria": {
+      "guard_tower": "2022-07-29 18:42:56 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/build_builder_2": {
+    "criteria": {
+      "builders_hut": "2022-07-30 10:55:47 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/build_town_hall": {
+    "criteria": {
+      "town_hall": "2022-07-29 07:33:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:pillager": "2022-07-29 17:48:59 -0400",
+      "minecraft:skeleton": "2022-07-28 21:26:31 -0400",
+      "minecraft:ravager": "2022-07-31 17:41:05 -0400",
+      "minecraft:vindicator": "2022-07-29 17:50:42 -0400",
+      "minecraft:magma_cube": "2022-07-30 23:00:02 -0400",
+      "minecraft:spider": "2022-07-28 22:31:28 -0400",
+      "minecraft:creeper": "2022-07-28 22:32:07 -0400",
+      "minecraft:witch": "2022-07-29 17:50:05 -0400",
+      "minecraft:enderman": "2022-07-27 22:29:58 -0400",
+      "minecraft:zombie": "2022-07-27 22:42:23 -0400",
+      "minecraft:drowned": "2022-07-28 21:47:50 -0400",
+      "minecraft:zombie_villager": "2022-07-29 07:07:42 -0400"
+    },
+    "done": false
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2022-07-27 22:24:15 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:production/build_warehouse": {
+    "criteria": {
+      "warehouse": "2022-07-29 19:04:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2022-07-29 17:51:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2022-07-29 19:14:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "baked_potato": "2022-07-28 22:23:14 -0400",
+      "apple": "2022-07-28 21:51:35 -0400",
+      "potato": "2022-07-30 22:12:36 -0400",
+      "cooked_cod": "2022-07-28 22:34:14 -0400",
+      "pumpkin_pie": "2022-07-31 17:55:39 -0400",
+      "bread": "2022-07-27 22:33:06 -0400",
+      "rotten_flesh": "2022-07-28 22:12:16 -0400",
+      "cookie": "2022-07-31 18:02:00 -0400",
+      "melon_slice": "2022-07-31 01:06:34 -0400",
+      "beetroot": "2022-07-28 21:25:00 -0400",
+      "cooked_salmon": "2022-07-31 00:49:44 -0400",
+      "carrot": "2022-07-29 07:07:49 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2022-07-29 18:42:41 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_prairie_house": {
+    "criteria": {
+      "location0": "2022-07-27 22:36:45 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_merchant_campsite": {
+    "criteria": {
+      "location0": "2022-07-30 10:31:32 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2022-07-30 23:22:15 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2022-07-28 22:33:42 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/check_out_guide": {
+    "criteria": {
+      "click_gui_button_close": "2022-07-28 21:57:57 -0400"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "black_eye": "2022-07-31 00:33:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2022-07-30 20:21:11 -0400"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2022-07-27 22:26:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2022-07-28 21:26:05 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/citizen_eat_food_rotten_flesh": {
+    "criteria": {
+      "citizen_eat_rotten_flesh": "2022-07-31 00:21:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2022-07-29 17:54:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-07-27 22:39:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-07-28 21:23:07 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:production/build_delivery_person": {
+    "criteria": {
+      "delivery_person": "2022-07-31 15:39:09 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_giant_mushroom": {
+    "criteria": {
+      "location0": "2022-07-30 00:09:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2022-07-27 22:37:27 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/build_builder": {
+    "criteria": {
+      "builders_hut": "2022-07-29 07:15:41 -0400"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2022-07-30 09:00:38 -0400"
+    },
+    "done": true
+  },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2022-07-31 00:33:28 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_typhon": {
+    "criteria": {
+      "location0": "2022-07-30 09:53:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2022-07-31 10:07:04 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}
