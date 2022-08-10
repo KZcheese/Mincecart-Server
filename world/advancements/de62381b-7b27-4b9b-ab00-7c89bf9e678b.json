@@ -17,9 +17,18 @@
     },
     "done": true
   },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "bacon_and_eggs": "2022-08-05 23:56:50 -0400"
+    },
+    "done": false
+  },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "wheat": "2022-07-29 23:41:04 -0400"
+      "beetroot": "2022-08-05 00:24:05 -0400",
+      "sugar_cane": "2022-08-05 23:19:06 -0400",
+      "wheat": "2022-07-29 23:41:04 -0400",
+      "pumpkin": "2022-08-05 00:02:13 -0400"
     },
     "done": false
   },
@@ -37,6 +46,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:sheep": "2022-08-05 23:06:58 -0400",
       "minecraft:chicken": "2022-08-01 23:57:32 -0400"
     },
     "done": false
@@ -79,6 +89,7 @@
       "minecraft:frozen_river": "2022-08-01 22:55:36 -0400",
       "minecraft:sunflower_plains": "2022-07-28 23:52:13 -0400",
       "minecraft:birch_forest": "2022-07-28 23:26:16 -0400",
+      "minecraft:bamboo_jungle": "2022-08-07 21:23:28 -0400",
       "minecraft:beach": "2022-07-28 00:32:26 -0400",
       "minecraft:dark_forest": "2022-07-30 01:35:44 -0400",
       "minecraft:river": "2022-07-28 00:32:19 -0400",
@@ -116,15 +127,33 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2022-08-05 21:56:28 -0400"
+    },
+    "done": true
+  },
   "minecolonies:minecolonies/root": {
     "criteria": {
       "supply_ship_placed": "2022-07-29 00:24:07 -0400"
     },
     "done": true
   },
+  "minecolonies:production/build_cook": {
+    "criteria": {
+      "cook": "2022-08-05 21:49:41 -0400"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2022-07-28 00:41:51 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/colony_population_5": {
+    "criteria": {
+      "population_5": "2022-08-05 01:23:02 -0400"
     },
     "done": true
   },
@@ -164,6 +193,12 @@
     },
     "done": true
   },
+  "minecolonies:minecolonies/place_townhall": {
+    "criteria": {
+      "build_tool_place_town_hall": "2022-08-05 22:06:34 -0400"
+    },
+    "done": true
+  },
   "farmersdelight:main/root": {
     "criteria": {
       "seeds": "2022-07-28 00:30:47 -0400"
@@ -198,7 +233,11 @@
     "criteria": {
       "minecraft:pillager": "2022-07-31 00:41:58 -0400",
       "minecraft:skeleton": "2022-07-31 01:27:24 -0400",
+      "minecraft:vindicator": "2022-08-06 10:21:37 -0400",
       "minecraft:spider": "2022-07-29 00:21:30 -0400",
+      "minecraft:creeper": "2022-08-05 00:41:30 -0400",
+      "minecraft:witch": "2022-08-05 01:25:06 -0400",
+      "minecraft:enderman": "2022-08-06 10:35:59 -0400",
       "minecraft:zombie": "2022-07-31 01:26:50 -0400",
       "minecraft:drowned": "2022-08-01 23:08:20 -0400",
       "minecraft:zombie_villager": "2022-07-31 00:15:28 -0400"
@@ -222,13 +261,21 @@
       "chicken": "2022-08-02 00:00:45 -0400",
       "apple": "2022-07-29 21:25:45 -0400",
       "bread": "2022-07-28 00:41:51 -0400",
-      "rotten_flesh": "2022-08-01 23:59:20 -0400"
+      "rotten_flesh": "2022-08-01 23:59:20 -0400",
+      "beetroot": "2022-08-05 01:32:24 -0400",
+      "cooked_chicken": "2022-08-02 00:23:02 -0400"
     },
     "done": false
   },
   "farmersdelight:main/craft_knife": {
     "criteria": {
       "golden_knife": "2022-07-30 01:30:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2022-08-06 10:34:53 -0400"
     },
     "done": true
   },
@@ -241,6 +288,12 @@
   "dungeons_arise:find_merchant_campsite": {
     "criteria": {
       "location0": "2022-07-28 00:40:18 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2022-08-05 23:56:50 -0400"
     },
     "done": true
   },
@@ -271,6 +324,18 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2022-07-29 00:15:05 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/citizen_eat_food_rotten_flesh": {
+    "criteria": {
+      "citizen_eat_rotten_flesh": "2022-08-05 00:45:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2022-08-06 10:24:43 -0400"
     },
     "done": true
   },
@@ -337,6 +402,12 @@
   "dungeons_arise:find_typhon": {
     "criteria": {
       "location0": "2022-07-28 00:34:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2022-08-05 23:49:54 -0400"
     },
     "done": true
   },
