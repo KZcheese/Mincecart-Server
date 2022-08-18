@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2022-08-15 00:19:46 -0400"
+    },
+    "done": false
+  },
   "farmersdelight:main/master_chef": {
     "criteria": {
       "bacon_and_eggs": "2022-08-05 23:56:50 -0400"
@@ -25,10 +31,14 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "cabbage": "2022-08-11 01:54:57 -0400",
+      "tomato": "2022-08-11 02:11:04 -0400",
       "beetroot": "2022-08-05 00:24:05 -0400",
       "sugar_cane": "2022-08-05 23:19:06 -0400",
+      "potato": "2022-08-11 00:26:40 -0400",
       "wheat": "2022-07-29 23:41:04 -0400",
-      "pumpkin": "2022-08-05 00:02:13 -0400"
+      "pumpkin": "2022-08-05 00:02:13 -0400",
+      "carrot": "2022-08-11 00:50:56 -0400"
     },
     "done": false
   },
@@ -66,6 +76,18 @@
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2022-07-28 00:40:56 -0400"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2022-08-15 01:01:37 -0400"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2022-08-15 00:02:14 -0400"
     },
     "done": true
   },
@@ -114,6 +136,12 @@
       "minecraft:plains": "2022-07-28 00:24:24 -0400"
     },
     "done": false
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2022-08-15 00:34:36 -0400"
+    },
+    "done": true
   },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
@@ -229,6 +257,12 @@
     },
     "done": true
   },
+  "minecolonies:minecolonies/build_town_hall": {
+    "criteria": {
+      "town_hall": "2022-08-12 01:35:37 -0400"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2022-07-31 00:41:58 -0400",
@@ -260,10 +294,13 @@
     "criteria": {
       "chicken": "2022-08-02 00:00:45 -0400",
       "apple": "2022-07-29 21:25:45 -0400",
+      "potato": "2022-08-11 01:52:28 -0400",
+      "poisonous_potato": "2022-08-11 01:52:35 -0400",
       "bread": "2022-07-28 00:41:51 -0400",
       "rotten_flesh": "2022-08-01 23:59:20 -0400",
       "beetroot": "2022-08-05 01:32:24 -0400",
-      "cooked_chicken": "2022-08-02 00:23:02 -0400"
+      "cooked_chicken": "2022-08-02 00:23:02 -0400",
+      "carrot": "2022-08-11 00:51:22 -0400"
     },
     "done": false
   },
@@ -300,6 +337,12 @@
   "minecolonies:minecolonies/check_out_guide": {
     "criteria": {
       "click_gui_button_close": "2022-07-29 00:38:49 -0400"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2022-08-15 01:08:57 -0400"
     },
     "done": true
   },

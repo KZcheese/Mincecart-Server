@@ -22,11 +22,15 @@
     "criteria": {
       "vegetable_soup": "2022-07-31 15:37:20 -0400",
       "honey_glazed_ham": "2022-08-03 21:48:36 -0400",
+      "grilled_salmon": "2022-08-12 19:45:02 -0400",
       "squid_ink_pasta": "2022-08-07 15:31:43 -0400",
       "pumpkin_soup": "2022-08-01 18:16:53 -0400",
+      "noodle_soup": "2022-08-13 13:22:22 -0400",
       "fish_stew": "2022-08-06 15:30:56 -0400",
       "baked_cod_stew": "2022-08-07 21:39:11 -0400",
-      "roast_chicken": "2022-08-04 10:37:34 -0400"
+      "roast_chicken": "2022-08-04 10:37:34 -0400",
+      "bacon_and_eggs": "2022-08-11 19:02:18 -0400",
+      "fried_rice": "2022-08-14 12:33:37 -0400"
     },
     "done": false
   },
@@ -463,6 +467,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/place_feast": {
+    "criteria": {
+      "honey_glazed_ham": "2022-08-12 08:00:02 -0400"
+    },
+    "done": true
+  },
   "minecolonies:minecolonies/colony_population_5": {
     "criteria": {
       "population_5": "2022-07-30 22:08:39 -0400"
@@ -514,6 +524,12 @@
   "minecolonies:minecolonies/build_guard_tower": {
     "criteria": {
       "guard_tower": "2022-07-29 18:42:56 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/start_builder": {
+    "criteria": {
+      "builder_request": "2022-08-14 22:04:35 -0400"
     },
     "done": true
   },
