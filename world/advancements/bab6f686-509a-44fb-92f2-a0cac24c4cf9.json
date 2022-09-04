@@ -48,6 +48,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:pig": "2022-07-31 00:27:18 -0400",
+      "minecraft:sheep": "2022-08-29 23:04:48 -0400",
       "minecraft:cow": "2022-07-31 00:44:26 -0400",
       "minecraft:chicken": "2022-08-02 20:45:21 -0400",
       "minecraft:bee": "2022-08-02 23:16:00 -0400"
@@ -240,6 +241,12 @@
     },
     "done": true
   },
+  "minecolonies:minecolonies/start_builder": {
+    "criteria": {
+      "builder_request": "2022-08-29 22:16:14 -0400"
+    },
+    "done": true
+  },
   "farmersdelight:main/plant_rice": {
     "criteria": {
       "plant_rice": "2022-08-02 00:40:29 -0400"
@@ -285,6 +292,12 @@
   "minecraft:husbandry/safely_harvest_honey": {
     "criteria": {
       "safely_harvest_honey": "2022-08-01 23:51:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2022-08-29 23:43:33 -0400"
     },
     "done": true
   },

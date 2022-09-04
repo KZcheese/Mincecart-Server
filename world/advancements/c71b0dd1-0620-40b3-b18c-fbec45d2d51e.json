@@ -64,6 +64,12 @@
     },
     "done": true
   },
+  "minecolonies:production/build_miner": {
+    "criteria": {
+      "miner": "2022-08-29 21:44:13 -0400"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2022-07-29 19:10:32 -0400"
@@ -79,6 +85,12 @@
   "create:mechanical_mixer": {
     "criteria": {
       "0": "2022-07-30 20:52:26 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/colony_population_10": {
+    "criteria": {
+      "population_10": "2022-08-28 21:07:54 -0400"
     },
     "done": true
   },
@@ -130,9 +142,21 @@
     },
     "done": true
   },
+  "create:portable_storage_interface": {
+    "criteria": {
+      "0": "2022-08-30 08:46:27 -0400"
+    },
+    "done": true
+  },
   "create:glass_pipe": {
     "criteria": {
       "0": "2022-07-31 19:06:42 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:production/root": {
+    "criteria": {
+      "builders_hut": "2022-08-25 19:13:17 -0400"
     },
     "done": true
   },
@@ -403,6 +427,12 @@
     },
     "done": true
   },
+  "create:train_whistle": {
+    "criteria": {
+      "0": "2022-08-30 08:26:38 -0400"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2022-08-04 19:36:22 -0400",
@@ -530,6 +560,12 @@
   "minecolonies:minecolonies/start_builder": {
     "criteria": {
       "builder_request": "2022-08-14 22:04:35 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/build_builder_2": {
+    "criteria": {
+      "builders_hut": "2022-08-25 19:13:17 -0400"
     },
     "done": true
   },
@@ -719,6 +755,12 @@
   "endrem:main/old_eye": {
     "criteria": {
       "old_eye": "2022-07-31 15:57:19 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/build_builder": {
+    "criteria": {
+      "builders_hut": "2022-08-25 19:13:17 -0400"
     },
     "done": true
   },

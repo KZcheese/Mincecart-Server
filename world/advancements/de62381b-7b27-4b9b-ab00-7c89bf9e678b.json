@@ -19,13 +19,17 @@
   },
   "create:wrench_goggles": {
     "criteria": {
-      "0": "2022-08-15 00:19:46 -0400"
+      "0": "2022-08-15 00:19:46 -0400",
+      "1": "2022-09-02 00:40:30 -0400"
     },
-    "done": false
+    "done": true
   },
   "farmersdelight:main/master_chef": {
     "criteria": {
-      "bacon_and_eggs": "2022-08-05 23:56:50 -0400"
+      "honey_glazed_ham": "2022-09-02 00:31:53 -0400",
+      "pumpkin_soup": "2022-08-21 13:44:46 -0400",
+      "bacon_and_eggs": "2022-08-05 23:56:50 -0400",
+      "fried_rice": "2022-08-26 22:38:59 -0400"
     },
     "done": false
   },
@@ -73,6 +77,12 @@
     },
     "done": true
   },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2022-08-25 22:11:40 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2022-07-28 00:40:56 -0400"
@@ -97,9 +107,27 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2022-08-25 23:55:07 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:minecolonies/colony_population_10": {
+    "criteria": {
+      "population_10": "2022-08-25 23:51:40 -0400"
+    },
+    "done": true
+  },
   "minecolonies:minecolonies/build_citizen": {
     "criteria": {
       "citizens_hut": "2022-07-30 00:30:34 -0400"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2022-08-19 23:38:57 -0400"
     },
     "done": true
   },
@@ -161,6 +189,12 @@
     },
     "done": true
   },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2022-09-02 00:39:50 -0400"
+    },
+    "done": true
+  },
   "minecolonies:minecolonies/root": {
     "criteria": {
       "supply_ship_placed": "2022-07-29 00:24:07 -0400"
@@ -179,9 +213,27 @@
     },
     "done": true
   },
+  "farmersdelight:main/place_feast": {
+    "criteria": {
+      "roast_chicken": "2022-08-30 00:08:51 -0400"
+    },
+    "done": true
+  },
   "minecolonies:minecolonies/colony_population_5": {
     "criteria": {
       "population_5": "2022-08-05 01:23:02 -0400"
+    },
+    "done": true
+  },
+  "create:portable_storage_interface": {
+    "criteria": {
+      "0": "2022-08-27 16:00:10 -0400"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2022-08-19 23:28:19 -0400"
     },
     "done": true
   },
@@ -224,6 +276,12 @@
   "minecolonies:minecolonies/place_townhall": {
     "criteria": {
       "build_tool_place_town_hall": "2022-08-05 22:06:34 -0400"
+    },
+    "done": true
+  },
+  "create:mechanical_crafter": {
+    "criteria": {
+      "0": "2022-08-19 23:38:57 -0400"
     },
     "done": true
   },
@@ -278,11 +336,30 @@
     },
     "done": false
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2022-08-25 23:55:07 -0400"
+    },
+    "done": true
+  },
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2022-07-28 00:24:24 -0400"
     },
     "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2022-08-19 22:17:01 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:production/build_all_herders": {
+    "criteria": {
+      "cows": "2022-08-26 22:31:15 -0400",
+      "sheep": "2022-08-21 14:47:57 -0400"
+    },
+    "done": false
   },
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
@@ -334,6 +411,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2022-08-19 23:58:52 -0400"
+    },
+    "done": true
+  },
   "minecolonies:minecolonies/check_out_guide": {
     "criteria": {
       "click_gui_button_close": "2022-07-29 00:38:49 -0400"
@@ -345,6 +428,13 @@
       "0": "2022-08-15 01:08:57 -0400"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2022-08-26 00:44:47 -0400",
+      "minecraft:soul_sand_valley": "2022-08-25 23:55:08 -0400"
+    },
+    "done": false
   },
   "minecolonies:minecolonies/fulfill_request": {
     "criteria": {
@@ -400,6 +490,18 @@
     },
     "done": true
   },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2022-08-19 22:47:54 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2022-08-21 13:44:46 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2022-07-28 00:40:57 -0400"
@@ -412,9 +514,21 @@
     },
     "done": true
   },
+  "create:brass_casing": {
+    "criteria": {
+      "0": "2022-08-19 22:52:07 -0400"
+    },
+    "done": true
+  },
   "minecolonies:minecolonies/build_builder": {
     "criteria": {
       "builders_hut": "2022-07-29 23:07:34 -0400"
+    },
+    "done": true
+  },
+  "create:contraption_actors": {
+    "criteria": {
+      "0": "2022-08-26 22:17:55 -0400"
     },
     "done": true
   },
@@ -439,6 +553,12 @@
   "dungeons_arise:find_mushroom_house": {
     "criteria": {
       "location0": "2022-08-01 23:30:12 -0400"
+    },
+    "done": true
+  },
+  "create:rose_quartz": {
+    "criteria": {
+      "0": "2022-08-19 22:55:47 -0400"
     },
     "done": true
   },
