@@ -329,6 +329,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/ornate_iron_window": {
+    "criteria": {
+      "has_ingredient": "2023-01-01 10:04:47 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2022-12-29 16:34:10 -0500"
@@ -1167,6 +1173,12 @@
   "minecraft:recipes/redstone/birch_button": {
     "criteria": {
       "has_planks": "2022-12-31 22:15:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2023-01-01 10:14:20 -0500"
     },
     "done": true
   },
@@ -2052,6 +2064,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2023-01-01 10:58:32 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2022-12-31 22:15:44 -0500"
@@ -2262,6 +2280,7 @@
       "apple": "2022-12-30 00:36:49 -0500",
       "potato": "2022-12-29 22:16:10 -0500",
       "poisonous_potato": "2022-12-31 23:38:51 -0500",
+      "mutton": "2023-01-01 11:02:48 -0500",
       "bread": "2022-12-28 00:22:12 -0500",
       "golden_apple": "2022-12-31 23:06:58 -0500",
       "rotten_flesh": "2022-12-29 16:24:46 -0500",
@@ -3530,6 +3549,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2023-01-01 10:14:20 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2022-12-29 11:18:18 -0500"
@@ -3557,6 +3582,12 @@
   "create:recipes/create.palettes/polished_cut_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-12-28 00:28:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2023-01-01 10:04:47 -0500"
     },
     "done": true
   },
