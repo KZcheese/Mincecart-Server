@@ -131,6 +131,12 @@
     },
     "done": true
   },
+  "charm:totem_of_preserving/use_totem_of_preserving": {
+    "criteria": {
+      "used_totem_of_preserving": "2023-01-05 23:03:08 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_the_recipe": "2022-12-28 00:26:16 -0500"
@@ -278,6 +284,12 @@
   "charm:portable_crafting/use_crafting_table": {
     "criteria": {
       "used_crafting_table": "2022-12-29 23:00:09 -0500"
+    },
+    "done": true
+  },
+  "charm:editable_signs/edit_sign": {
+    "criteria": {
+      "edited_sign": "2023-01-03 23:40:09 -0500"
     },
     "done": true
   },
@@ -710,6 +722,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2023-01-02 23:43:50 -0500",
+      "minecraft:skeleton": "2023-01-03 23:33:26 -0500",
       "minecraft:spider": "2022-12-29 22:51:21 -0500",
       "minecraft:zombie": "2022-12-30 11:02:09 -0500"
     },
@@ -1554,6 +1567,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2023-01-05 23:57:15 -0500"
+    },
+    "done": true
+  },
   "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
       "axolotl_bucket": "2023-01-01 10:02:51 -0500"
@@ -1674,6 +1693,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-01-05 23:57:15 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_shovel": "2022-12-30 11:07:14 -0500"
@@ -1749,6 +1774,12 @@
   "create:recipes/create.palettes/polished_cut_tuff_slab_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2022-12-30 10:19:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2023-01-05 23:57:15 -0500"
     },
     "done": true
   },
@@ -2631,6 +2662,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2023-01-03 22:57:56 -0500"
+    },
+    "done": true
+  },
   "create:belt": {
     "criteria": {
       "0": "2023-01-01 10:04:06 -0500"
@@ -2669,6 +2706,7 @@
   },
   "farmersdelight:main/master_chef": {
     "criteria": {
+      "vegetable_soup": "2023-01-03 22:57:56 -0500",
       "ratatouille": "2022-12-30 00:36:31 -0500"
     },
     "done": false
@@ -2677,7 +2715,8 @@
     "criteria": {
       "tomato": "2022-12-29 23:06:58 -0500",
       "beetroot": "2022-12-29 22:08:55 -0500",
-      "sugar_cane": "2022-12-29 22:08:35 -0500"
+      "sugar_cane": "2022-12-29 22:08:35 -0500",
+      "wheat": "2023-01-05 23:58:40 -0500"
     },
     "done": false
   },
