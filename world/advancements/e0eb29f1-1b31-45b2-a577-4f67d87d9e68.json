@@ -833,6 +833,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2023-01-08 17:42:23 -0500"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/materials/andesite_alloy": {
     "criteria": {
       "has_item": "2022-12-25 21:53:21 -0500"
@@ -1166,6 +1172,12 @@
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_planks": "2022-12-25 00:07:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2023-01-07 23:52:25 -0500"
     },
     "done": true
   },
@@ -3237,6 +3249,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2023-01-08 17:42:31 -0500",
       "minecraft:slime": "2023-01-03 17:14:32 -0500",
       "minecraft:zombie": "2022-12-24 23:50:12 -0500",
       "minecraft:drowned": "2023-01-02 11:56:05 -0500"
@@ -3318,6 +3331,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/apple_cider": {
     "criteria": {
       "has_apple": "2022-12-25 00:35:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2023-01-07 23:52:25 -0500"
     },
     "done": true
   },
@@ -3534,6 +3553,12 @@
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2022-12-25 00:07:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2023-01-08 00:15:09 -0500"
     },
     "done": true
   },
@@ -4175,6 +4200,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2023-01-07 23:52:25 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_planks": "2023-01-01 02:48:38 -0500"
@@ -4751,6 +4782,12 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2023-01-03 15:00:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2023-01-08 00:15:11 -0500"
     },
     "done": true
   },
