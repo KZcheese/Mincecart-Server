@@ -1734,6 +1734,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-01-08 21:08:35 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_hoe": "2022-12-24 22:31:38 -0500"
@@ -1785,6 +1791,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2022-12-24 23:45:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2023-01-08 21:08:35 -0500"
     },
     "done": true
   },
@@ -2305,6 +2317,10 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:pig": "2023-01-08 21:09:39 -0500",
+      "minecraft:sheep": "2023-01-08 21:10:40 -0500",
+      "minecraft:cow": "2023-01-08 21:05:38 -0500",
+      "minecraft:chicken": "2023-01-08 21:10:09 -0500",
       "minecraft:bee": "2023-01-03 23:00:28 -0500"
     },
     "done": false
