@@ -1079,6 +1079,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2023-01-12 14:52:00 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2022-12-28 22:33:49 -0500"
@@ -1424,6 +1430,12 @@
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2023-01-08 14:31:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2023-01-12 14:40:35 -0500"
     },
     "done": true
   },
@@ -3705,6 +3717,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2023-01-12 14:52:00 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2022-12-28 12:57:36 -0500"
@@ -4979,6 +4997,12 @@
   "create:recipes/create.palettes/cut_scoria_bricks_from_scoria_stonecutting": {
     "criteria": {
       "has_scoria": "2022-12-30 12:22:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2023-01-12 14:52:00 -0500"
     },
     "done": true
   },
