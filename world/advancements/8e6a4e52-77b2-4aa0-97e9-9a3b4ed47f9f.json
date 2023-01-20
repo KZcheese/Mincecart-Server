@@ -1008,6 +1008,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2023-01-15 00:20:31 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-12-28 00:24:00 -0500"
@@ -1891,6 +1897,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2023-01-14 23:37:49 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2022-12-29 16:19:59 -0500"
@@ -1906,6 +1918,12 @@
   "create:recipes/create.base/crafting/kinetics/smart_fluid_pipe": {
     "criteria": {
       "has_item": "2022-12-29 21:53:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2023-01-15 00:20:31 -0500"
     },
     "done": true
   },
@@ -2367,6 +2385,7 @@
       "melon_slice": "2022-12-31 13:26:40 -0500",
       "beetroot": "2022-12-29 21:42:34 -0500",
       "cooked_chicken": "2022-12-29 20:26:06 -0500",
+      "cod": "2023-01-15 00:23:18 -0500",
       "carrot": "2022-12-29 22:18:41 -0500"
     },
     "done": false
@@ -2380,6 +2399,12 @@
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
       "has_planks": "2022-12-30 23:24:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2023-01-15 00:20:31 -0500"
     },
     "done": true
   },
@@ -2866,6 +2891,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2023-01-15 00:05:37 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2022-12-29 16:41:09 -0500"
@@ -2959,6 +2990,12 @@
   "minecraft:recipes/building_blocks/deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2022-12-29 22:52:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-01-15 00:38:55 -0500"
     },
     "done": true
   },
@@ -3180,6 +3217,7 @@
       "beetroot": "2022-12-29 21:42:28 -0500",
       "sugar_cane": "2022-12-29 21:42:41 -0500",
       "potato": "2022-12-31 23:34:23 -0500",
+      "red_mushroom": "2023-01-15 00:08:34 -0500",
       "wheat": "2022-12-28 00:31:22 -0500",
       "carrot": "2022-12-29 22:58:53 -0500"
     },
@@ -3341,6 +3379,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2023-01-15 00:05:37 -0500"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/gray_seat": {
     "criteria": {
       "has_wool": "2022-12-28 00:27:20 -0500"
@@ -3392,6 +3436,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/bone_broth": {
     "criteria": {
       "has_bone": "2022-12-29 20:17:26 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2023-01-15 00:05:37 -0500"
     },
     "done": true
   },
