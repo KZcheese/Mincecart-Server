@@ -1079,6 +1079,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2023-01-20 21:23:29 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2023-01-01 02:47:58 -0500"
@@ -3507,6 +3513,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2023-01-20 21:23:29 -0500"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_cut_calcite_wall_from_calcite_stonecutting": {
     "criteria": {
       "has_calcite": "2023-01-04 13:06:34 -0500"
@@ -5669,6 +5681,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_candle": {
+    "criteria": {
+      "has_magenta_dye": "2023-01-20 21:23:24 -0500"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_deepslate_stairs_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2023-01-13 21:00:23 -0500"
@@ -6872,6 +6890,12 @@
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2023-01-17 14:16:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2023-01-20 21:23:13 -0500"
     },
     "done": true
   },
