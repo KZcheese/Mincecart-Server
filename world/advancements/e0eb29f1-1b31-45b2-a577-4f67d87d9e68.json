@@ -233,6 +233,12 @@
     },
     "done": true
   },
+  "charm:editable_signs/edit_sign": {
+    "criteria": {
+      "edited_sign": "2023-01-22 20:10:17 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2022-12-24 23:18:36 -0500"
@@ -779,6 +785,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2023-01-22 14:50:08 -0500"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2023-01-04 12:27:35 -0500"
@@ -1253,6 +1265,12 @@
     },
     "done": true
   },
+  "create:track_0": {
+    "criteria": {
+      "0": "2023-01-24 14:46:46 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2022-12-25 21:53:21 -0500"
@@ -1520,6 +1538,12 @@
   "create:recipes/create.palettes/polished_cut_limestone_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2023-01-15 19:36:33 -0500"
+    },
+    "done": true
+  },
+  "charm:bat_buckets/use_bat_bucket": {
+    "criteria": {
+      "used_bat_bucket": "2023-01-22 18:14:16 -0500"
     },
     "done": true
   },
@@ -2327,7 +2351,9 @@
     "criteria": {
       "minecraft:pig": "2023-01-02 18:10:03 -0500",
       "minecraft:turtle": "2023-01-04 13:36:01 -0500",
-      "minecraft:sheep": "2023-01-03 14:48:22 -0500"
+      "minecraft:sheep": "2023-01-03 14:48:22 -0500",
+      "minecraft:cow": "2023-01-24 16:12:32 -0500",
+      "minecraft:chicken": "2023-01-24 21:21:15 -0500"
     },
     "done": false
   },
@@ -2982,6 +3008,12 @@
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_shovel": "2022-12-25 00:31:42 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/honey_cookie": {
+    "criteria": {
+      "has_honey_bottle": "2023-01-24 19:46:32 -0500"
     },
     "done": true
   },
@@ -3951,6 +3983,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2023-01-24 16:38:54 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2022-12-25 00:34:26 -0500"
@@ -3978,6 +4016,12 @@
   "create:recipes/create.palettes/ornate_iron_window": {
     "criteria": {
       "has_ingredient": "2022-12-25 21:37:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2023-01-22 14:50:08 -0500"
     },
     "done": true
   },
@@ -4044,6 +4088,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/beef_stew": {
     "criteria": {
       "has_any_ingredient": "2022-12-24 23:26:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2023-01-22 18:41:13 -0500"
     },
     "done": true
   },
@@ -4116,6 +4166,12 @@
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2022-12-26 16:39:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2023-01-22 14:50:08 -0500"
     },
     "done": true
   },
@@ -4293,6 +4349,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2023-01-22 14:50:08 -0500"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cutting_board": {
     "criteria": {
       "has_stick": "2022-12-24 23:26:12 -0500"
@@ -4414,6 +4476,12 @@
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2022-12-24 23:55:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-01-24 19:47:17 -0500"
     },
     "done": true
   },
@@ -5101,6 +5169,12 @@
     },
     "done": true
   },
+  "create:train_whistle": {
+    "criteria": {
+      "0": "2023-01-22 17:32:47 -0500"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2023-01-01 02:43:56 -0500",
@@ -5113,6 +5187,7 @@
       "minecraft:sunflower_plains": "2022-12-25 00:02:48 -0500",
       "minecraft:birch_forest": "2022-12-27 20:12:23 -0500",
       "minecraft:wooded_badlands": "2023-01-01 23:05:09 -0500",
+      "minecraft:bamboo_jungle": "2023-01-21 22:39:14 -0500",
       "minecraft:badlands": "2022-12-27 17:53:21 -0500",
       "minecraft:savanna_plateau": "2023-01-10 13:06:27 -0500",
       "minecraft:beach": "2022-12-24 23:21:03 -0500",
@@ -5264,6 +5339,12 @@
   "create:recipes/create.palettes/layered_veridium_from_stone_types_veridium_stonecutting": {
     "criteria": {
       "has_stone_types_veridium": "2023-01-12 22:22:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2023-01-24 19:46:32 -0500"
     },
     "done": true
   },
@@ -5585,6 +5666,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2023-01-24 19:46:32 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2022-12-27 23:17:52 -0500"
@@ -5693,6 +5780,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2023-01-21 21:24:55 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2022-12-24 23:21:03 -0500"
@@ -5778,6 +5871,7 @@
       "sweet_berries": "2022-12-31 23:31:07 -0500",
       "cooked_beef": "2022-12-25 00:18:12 -0500",
       "baked_potato": "2023-01-02 12:59:29 -0500",
+      "beef": "2023-01-21 22:42:28 -0500",
       "beetroot_soup": "2023-01-01 22:01:41 -0500",
       "apple": "2023-01-17 14:21:46 -0500",
       "pumpkin_pie": "2022-12-26 17:15:19 -0500",
@@ -5983,6 +6077,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2023-01-22 14:50:08 -0500"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/depot": {
     "criteria": {
       "has_item": "2023-01-11 17:25:04 -0500"
@@ -6160,6 +6260,12 @@
   "minecraft:recipes/building_blocks/blue_ice": {
     "criteria": {
       "has_packed_ice": "2023-01-01 20:56:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2023-01-24 19:46:32 -0500"
     },
     "done": true
   },
@@ -6352,6 +6458,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "tomato": "2023-01-10 13:11:58 -0500",
+      "sugar_cane": "2023-01-24 21:04:45 -0500",
       "potato": "2023-01-02 18:07:24 -0500",
       "wheat": "2023-01-03 00:52:32 -0500",
       "pumpkin": "2023-01-02 13:04:49 -0500",
@@ -6590,6 +6697,12 @@
   "create:recipes/create.palettes/cut_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2023-01-03 15:00:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2023-01-22 14:50:08 -0500"
     },
     "done": true
   },
@@ -7001,6 +7114,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2023-01-24 16:38:54 -0500"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_tuff_slab_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2022-12-31 21:49:45 -0500"
@@ -7073,6 +7192,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2023-01-22 14:36:52 -0500"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_calcite_stairs_from_calcite_stonecutting": {
     "criteria": {
       "has_calcite": "2023-01-04 13:06:34 -0500"
@@ -7142,6 +7267,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2022-12-26 16:41:17 -0500"
+    },
+    "done": true
+  },
+  "charm:kilns/obtain_kiln": {
+    "criteria": {
+      "obtained_kiln": "2023-01-24 18:56:56 -0500"
     },
     "done": true
   },

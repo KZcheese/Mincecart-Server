@@ -1845,6 +1845,12 @@
     },
     "done": true
   },
+  "create:train_whistle": {
+    "criteria": {
+      "0": "2023-01-22 20:50:57 -0500"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2023-01-02 23:40:53 -0500",
@@ -4222,6 +4228,12 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2022-12-30 10:41:27 -0500"
+    },
+    "done": true
+  },
+  "create:train_roadkill": {
+    "criteria": {
+      "0": "2023-01-22 20:48:21 -0500"
     },
     "done": true
   },
