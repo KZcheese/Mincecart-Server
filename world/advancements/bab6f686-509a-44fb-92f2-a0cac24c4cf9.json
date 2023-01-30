@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/copper_backtank": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2023-01-01 02:27:58 -0500"
@@ -218,6 +224,12 @@
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2022-12-25 22:43:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2023-01-25 22:43:57 -0500"
     },
     "done": true
   },
@@ -446,6 +458,12 @@
   "farmersdelight:recipes/farmersdelight/bacon_and_eggs": {
     "criteria": {
       "has_bacon": "2023-01-02 19:55:52 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/copper_nugget": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
     },
     "done": true
   },
@@ -815,6 +833,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-01-25 22:43:57 -0500"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/melon_popsicle": {
     "criteria": {
       "has_melon": "2023-01-19 22:54:18 -0500"
@@ -827,7 +851,8 @@
       "minecraft:skeleton": "2022-12-25 00:11:22 -0500",
       "minecraft:spider": "2023-01-01 01:56:35 -0500",
       "minecraft:creeper": "2023-01-03 23:10:54 -0500",
-      "minecraft:zombie": "2022-12-25 00:14:13 -0500"
+      "minecraft:zombie": "2022-12-25 00:14:13 -0500",
+      "minecraft:drowned": "2023-01-25 22:43:57 -0500"
     },
     "done": false
   },
@@ -1095,6 +1120,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/honey_glazed_ham_block": {
+    "criteria": {
+      "has_smoked_ham": "2023-01-25 23:35:42 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2023-01-19 23:03:14 -0500"
@@ -1197,9 +1228,21 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle_from_others": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_cut_limestone_wall_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2023-01-11 00:00:49 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/steam_engine": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
     },
     "done": true
   },
@@ -1509,6 +1552,12 @@
     },
     "done": true
   },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2023-01-25 23:07:29 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2022-12-24 22:15:31 -0500"
@@ -1623,6 +1672,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/diving_helmet": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2022-12-29 23:19:23 -0500"
@@ -1704,6 +1759,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/diving_boots": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2022-12-24 23:45:03 -0500"
@@ -1776,6 +1837,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2023-01-25 23:12:53 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fruit_salad": {
+    "criteria": {
+      "has_fruits": "2023-01-25 23:26:14 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2022-12-25 22:43:47 -0500"
@@ -1839,6 +1912,12 @@
   "minecraft:recipes/building_blocks/brick_slab": {
     "criteria": {
       "has_bricks": "2022-12-25 23:30:30 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
     },
     "done": true
   },
@@ -1989,6 +2068,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2023-01-02 18:15:36 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/hose_pulley": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
     },
     "done": true
   },
@@ -2163,6 +2248,12 @@
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-01-02 17:31:38 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_valve": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
     },
     "done": true
   },
@@ -2691,6 +2782,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/mechanical_pump": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2022-12-24 21:54:11 -0500"
@@ -3069,6 +3166,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/fluid_pipe_vertical": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_planks": "2023-01-01 02:27:58 -0500"
@@ -3139,6 +3242,12 @@
   "create:recipes/create.palettes/small_diorite_brick_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-12-29 22:56:39 -0500"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2023-01-25 22:43:57 -0500"
     },
     "done": true
   },
@@ -3550,6 +3659,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
       "has_boat": "2022-12-24 22:32:29 -0500"
@@ -3868,6 +3983,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/steam_whistle": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2022-12-25 00:00:14 -0500"
@@ -3889,6 +4010,12 @@
   "minecraft:recipes/decorations/light_gray_candle": {
     "criteria": {
       "has_light_gray_dye": "2023-01-02 19:20:49 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_pipe": {
+    "criteria": {
+      "has_item": "2023-01-25 22:43:57 -0500"
     },
     "done": true
   },
