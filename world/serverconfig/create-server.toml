@@ -157,12 +157,6 @@ limitAdventureMode = true
 	#Moving Contraptions
 	[kinetics.contraptions]
 		#.
-		#Whether items mined or harvested by contraptions should be placed in their mounted storage.
-		moveItemsToStorage = true
-		#.
-		#Whether harvesters should break crops that aren't fully grown.
-		harvestPartiallyGrown = false
-		#.
 		#Maximum amount of extension poles behind a Mechanical Piston.
 		#Range: > 1
 		maxPistonPoles = 64
@@ -170,6 +164,33 @@ limitAdventureMode = true
 		#Maximum value of a chassis attachment range.
 		#Range: > 1
 		maxChassisRange = 16
+		#.
+		#Whether minecart contraptions can be picked up in survival mode.
+		survivalContraptionPickup = true
+		#.
+		#[in Bytes]
+		#[0 to disable this limit]
+		#Maximum amount of data a contraption can have before it can't be synced with players.
+		#Un-synced contraptions will not be visible and will not have collision.
+		#Range: > 0
+		maxDataSize = 2000000
+		#.
+		#Configure how Spawner blocks can be moved by contraptions.
+		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
+		movableSpawners = "NO_PICKUP"
+		#.
+		#Configure how Obsidian blocks can be moved by contraptions.
+		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
+		movableObsidian = "UNMOVABLE"
+		#.
+		#Whether harvesters should replant crops after harvesting.
+		harvesterReplants = true
+		#.
+		#Whether items mined or harvested by contraptions should be placed in their mounted storage.
+		moveItemsToStorage = true
+		#.
+		#Whether harvesters should break crops that aren't fully grown.
+		harvestPartiallyGrown = false
 		#.
 		#Max length of rope available off a Rope Pulley.
 		#Range: > 1
@@ -183,10 +204,6 @@ limitAdventureMode = true
 		#Range: > 1
 		maxBlocksMoved = 2048
 		#.
-		#Configure how Spawner blocks can be moved by contraptions.
-		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableSpawners = "NO_PICKUP"
-		#.
 		#Configure how Budding Amethyst can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
 		amethystMovement = "NO_PICKUP"
@@ -194,13 +211,6 @@ limitAdventureMode = true
 		#Maximum allowed distance of two coupled minecarts.
 		#Range: > 1
 		maxCartCouplingLength = 32
-		#.
-		#Configure how Obsidian blocks can be moved by contraptions.
-		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableObsidian = "UNMOVABLE"
-		#.
-		#Whether harvesters should replant crops after harvesting.
-		harvesterReplants = true
 
 	[kinetics.stressValues]
 
@@ -426,10 +436,6 @@ limitAdventureMode = true
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		#Range: > 1
 		schematicannonDelay = 10
-		#.
-		#Amount of block positions per tick scanned by a running cannon. Higher => Faster
-		#Range: > 1
-		schematicannonSkips = 10
 
 #.
 #Gadgets and other Shenanigans added by Create
@@ -474,6 +480,10 @@ limitAdventureMode = true
 	#Maximum length of a Train Stations' assembly track.
 	#Range: > 5
 	maxAssemblyLength = 128
+	#.
+	#Maximum length of track that can be placed as one batch or turn.
+	#Range: 16 ~ 128
+	maxTrackPlacementLength = 32
 	#.
 	#Whether moving Trains can hurt colliding mobs and players.
 	trainsCauseDamage = true
