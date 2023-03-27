@@ -3096,6 +3096,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "shepherds_pie": "2023-03-14 21:00:26 -0400"
+    },
+    "done": false
+  },
   "farmersdelight:main/use_cutting_board": {
     "criteria": {
       "cutting_board": "2022-12-27 18:11:57 -0500"
@@ -3819,6 +3825,12 @@
   "create:recipes/create.palettes/cut_tuff_brick_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2022-12-31 21:49:45 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2023-03-14 21:00:26 -0400"
     },
     "done": true
   },
