@@ -629,6 +629,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/deployer": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:22 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_veridium_wall_from_veridium_stonecutting": {
     "criteria": {
       "has_veridium": "2022-12-25 00:12:31 -0500"
@@ -656,6 +662,18 @@
   "minecraft:recipes/decorations/polished_deepslate_wall": {
     "criteria": {
       "has_polished_deepslate": "2023-01-10 22:54:50 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/sequenced_gearshift": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:29 -0400"
+    },
+    "done": true
+  },
+  "create:clockwork_bearing": {
+    "criteria": {
+      "0": "2023-03-27 23:23:37 -0400"
     },
     "done": true
   },
@@ -1187,6 +1205,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/logistics/redstone_link": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:29 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/millstone": {
     "criteria": {
       "has_item": "2023-01-09 18:41:32 -0500"
@@ -1232,6 +1256,12 @@
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2022-12-24 23:54:07 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/redstone_contact": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:29 -0400"
     },
     "done": true
   },
@@ -3691,6 +3721,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/mechanical_crafter": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:29 -0400"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/organic_compost_from_rotten_flesh": {
     "criteria": {
       "has_rotten_flesh": "2022-12-24 21:51:43 -0500"
@@ -3826,6 +3862,12 @@
   "create:recipes/create.palettes/cut_calcite_from_calcite_stonecutting": {
     "criteria": {
       "has_calcite": "2023-01-03 16:23:21 -0500"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2023-03-27 22:47:43 -0400"
     },
     "done": true
   },
@@ -4027,6 +4069,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/logistics/display_link": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:29 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_cut_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-12-25 00:43:58 -0500"
@@ -4060,6 +4108,12 @@
   "create:recipes/create.palettes/cut_limestone_slab_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2023-01-02 19:34:02 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/content_observer": {
+    "criteria": {
+      "has_item": "2023-03-27 23:10:01 -0400"
     },
     "done": true
   },
@@ -4333,6 +4387,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/clockwork_bearing": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:29 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2022-12-24 21:51:29 -0500"
@@ -4528,6 +4588,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2023-01-02 18:38:51 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/adjustable_chain_gearshift": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:22 -0400"
     },
     "done": true
   },
@@ -5461,6 +5527,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/mechanical_arm": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:29 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall": {
     "criteria": {
       "has_andesite": "2022-12-25 00:43:58 -0500"
@@ -5530,6 +5602,12 @@
   "farmersdelight:recipes/farmersdelight/wheat_dough_from_eggs": {
     "criteria": {
       "has_wheat": "2022-12-25 21:41:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/nixie_tube": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:29 -0400"
     },
     "done": true
   },
@@ -5770,6 +5848,12 @@
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2023-01-01 00:54:24 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/rotation_speed_controller": {
+    "criteria": {
+      "has_item": "2023-03-27 22:32:29 -0400"
     },
     "done": true
   },
@@ -6335,6 +6419,12 @@
   "farmersdelight:main/eat_comfort_food": {
     "criteria": {
       "comfort": "2023-01-03 12:06:36 -0500"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2023-03-27 23:10:22 -0400"
     },
     "done": true
   },
@@ -7087,6 +7177,8 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "minecraft:jellie": "2023-03-27 21:02:47 -0400",
+      "minecraft:persian": "2023-03-27 20:44:17 -0400",
       "minecraft:british_shorthair": "2022-12-25 22:31:12 -0500"
     },
     "done": false
@@ -7178,6 +7270,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2023-01-24 16:29:02 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/zinc_ingot_from_compacting": {
+    "criteria": {
+      "has_item": "2023-03-27 23:02:18 -0400"
     },
     "done": true
   },
