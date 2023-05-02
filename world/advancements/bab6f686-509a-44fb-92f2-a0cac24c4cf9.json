@@ -395,6 +395,12 @@
     },
     "done": true
   },
+  "charm:editable_signs/edit_sign": {
+    "criteria": {
+      "edited_sign": "2023-04-30 22:50:07 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2022-12-24 22:16:16 -0500"
@@ -434,6 +440,12 @@
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2023-01-05 22:39:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2023-04-30 22:37:11 -0400"
     },
     "done": true
   },
@@ -590,6 +602,12 @@
   "create:recipes/create.base/crafting/kinetics/lime_seat": {
     "criteria": {
       "has_wool": "2023-01-02 19:20:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2023-04-30 22:37:11 -0400"
     },
     "done": true
   },
@@ -752,6 +770,12 @@
   "farmersdelight:recipes/farmersdelight/chocolate_pie": {
     "criteria": {
       "has_pie_crust": "2023-01-03 22:42:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2023-04-30 22:37:11 -0400"
     },
     "done": true
   },
@@ -949,6 +973,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-01-02 19:20:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2023-04-30 22:37:11 -0400"
     },
     "done": true
   },
@@ -1897,6 +1927,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooked_chicken_cuts_from_campfire_cooking": {
+    "criteria": {
+      "cooked_chicken_cuts": "2023-04-30 22:02:52 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/white_seat": {
     "criteria": {
       "has_wool": "2023-01-02 19:20:48 -0500"
@@ -2692,6 +2728,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2023-04-30 22:37:11 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2022-12-24 23:45:03 -0500"
@@ -2839,6 +2881,12 @@
   "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
     "criteria": {
       "has_iron_knife": "2022-12-25 00:24:10 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooked_chicken_cuts_from_smoking": {
+    "criteria": {
+      "cooked_chicken_cuts": "2023-04-30 22:02:52 -0400"
     },
     "done": true
   },
@@ -3539,6 +3587,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2023-04-30 22:37:11 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2022-12-29 22:56:39 -0500"
@@ -3614,6 +3668,12 @@
   "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
     "criteria": {
       "has_bricks": "2022-12-25 23:30:30 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooked_chicken_cuts": {
+    "criteria": {
+      "cooked_chicken_cuts": "2023-04-30 22:02:52 -0400"
     },
     "done": true
   },
