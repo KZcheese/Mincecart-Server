@@ -407,6 +407,12 @@
     },
     "done": true
   },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2023-05-04 21:11:58 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2022-12-29 11:51:02 -0500"
@@ -2229,6 +2235,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-05-04 20:57:48 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/red_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2023-01-09 22:36:57 -0500"
@@ -3059,6 +3071,12 @@
   "minecraft:recipes/decorations/jungle_sign": {
     "criteria": {
       "has_planks": "2023-01-04 09:58:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2023-05-04 21:03:37 -0400"
     },
     "done": true
   },
@@ -3957,6 +3975,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-05-04 20:57:48 -0400"
+    },
+    "done": true
+  },
   "create:funnel": {
     "criteria": {
       "0": "2023-01-02 19:26:03 -0500"
@@ -4107,6 +4131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-05-04 20:57:48 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_chest_boat": {
     "criteria": {
       "has_boat": "2022-12-29 22:14:50 -0500"
@@ -4140,6 +4170,12 @@
   "create:contraption_actors": {
     "criteria": {
       "0": "2022-12-29 23:38:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2023-05-02 21:23:46 -0400"
     },
     "done": true
   },
@@ -4516,6 +4552,12 @@
   "create:recipes/create.base/crafting/kinetics/water_wheel": {
     "criteria": {
       "has_item": "2022-12-28 12:47:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2023-05-04 21:03:38 -0400"
     },
     "done": true
   },
@@ -5290,6 +5332,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2023-02-07 20:50:35 -0500",
+      "minecraft:old_growth_pine_taiga": "2023-05-02 20:59:06 -0400",
       "minecraft:mushroom_fields": "2023-02-07 21:05:40 -0500",
       "minecraft:taiga": "2023-02-07 19:22:34 -0500",
       "minecraft:deep_ocean": "2023-01-04 09:06:08 -0500",
@@ -5321,7 +5364,9 @@
       "minecraft:deep_lukewarm_ocean": "2023-01-04 09:05:28 -0500",
       "minecraft:flower_forest": "2022-12-28 09:37:12 -0500",
       "minecraft:old_growth_birch_forest": "2023-01-10 12:17:07 -0500",
+      "minecraft:deep_dark": "2023-05-02 21:21:45 -0400",
       "minecraft:meadow": "2022-12-28 11:57:50 -0500",
+      "minecraft:windswept_gravelly_hills": "2023-05-02 20:43:51 -0400",
       "minecraft:savanna": "2022-12-28 22:09:17 -0500",
       "minecraft:plains": "2022-12-28 09:35:40 -0500"
     },
@@ -6146,6 +6191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-05-04 20:57:48 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2022-12-30 12:41:51 -0500"
@@ -6841,6 +6892,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-05-04 20:57:48 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2022-12-28 11:40:38 -0500"
@@ -7438,6 +7495,12 @@
   "create:recipes/create.palettes/cut_crimsite_brick_wall_from_crimsite_stonecutting": {
     "criteria": {
       "has_crimsite": "2023-01-08 15:20:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-05-04 20:57:48 -0400"
     },
     "done": true
   },

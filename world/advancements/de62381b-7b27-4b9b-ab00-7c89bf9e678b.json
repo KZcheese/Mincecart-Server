@@ -461,6 +461,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2023-05-02 21:59:16 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2022-12-30 11:01:45 -0500"
@@ -614,6 +620,12 @@
   "create:contraption_actors": {
     "criteria": {
       "0": "2023-04-25 23:41:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2023-05-02 22:06:34 -0400"
     },
     "done": true
   },
@@ -794,6 +806,12 @@
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_lime_dye": "2023-01-15 01:22:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2023-05-02 23:20:07 -0400"
     },
     "done": true
   },
@@ -1036,6 +1054,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2023-04-30 00:09:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2023-05-02 22:47:51 -0400"
     },
     "done": true
   },
@@ -1911,7 +1935,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2023-05-02 21:59:59 -0400",
+      "minecraft:mushroom_fields": "2023-05-03 00:12:16 -0400",
       "minecraft:taiga": "2023-01-02 23:40:53 -0500",
+      "minecraft:deep_ocean": "2023-05-03 00:10:53 -0400",
       "minecraft:eroded_badlands": "2023-01-11 00:40:25 -0500",
       "minecraft:sunflower_plains": "2022-12-29 22:17:55 -0500",
       "minecraft:birch_forest": "2022-12-29 22:27:28 -0500",
@@ -1921,6 +1948,7 @@
       "minecraft:sparse_jungle": "2022-12-29 22:28:38 -0500",
       "minecraft:river": "2022-12-28 00:23:22 -0500",
       "minecraft:lukewarm_ocean": "2022-12-29 22:18:48 -0500",
+      "minecraft:dripstone_caves": "2023-05-02 21:59:35 -0400",
       "minecraft:cold_ocean": "2022-12-29 22:16:58 -0500",
       "minecraft:forest": "2022-12-28 00:25:12 -0500",
       "minecraft:lush_caves": "2022-12-30 10:17:18 -0500",
@@ -1929,8 +1957,10 @@
       "minecraft:jungle": "2022-12-29 22:44:42 -0500",
       "minecraft:ocean": "2022-12-29 22:17:31 -0500",
       "minecraft:warm_ocean": "2023-01-11 00:41:46 -0500",
+      "minecraft:deep_lukewarm_ocean": "2023-05-03 00:12:32 -0400",
       "minecraft:flower_forest": "2022-12-29 22:18:43 -0500",
       "minecraft:old_growth_birch_forest": "2022-12-29 22:37:22 -0500",
+      "minecraft:deep_dark": "2023-05-02 22:00:29 -0400",
       "minecraft:meadow": "2022-12-29 22:22:28 -0500",
       "minecraft:savanna": "2022-12-29 22:18:44 -0500",
       "minecraft:plains": "2022-12-26 01:02:19 -0500"
@@ -2623,6 +2653,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2023-05-02 22:47:51 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2022-12-29 22:08:49 -0500"
@@ -2692,6 +2728,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2022-12-29 22:10:59 -0500",
+      "sweet_berries": "2023-05-02 22:02:45 -0400",
       "apple": "2022-12-30 00:22:08 -0500",
       "bread": "2022-12-29 23:04:36 -0500",
       "rotten_flesh": "2022-12-29 22:03:31 -0500",
@@ -3447,6 +3484,12 @@
   "farmersdelight:recipes/building_blocks/packed_mud_from_straw": {
     "criteria": {
       "has_straw": "2023-01-09 23:49:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2023-05-02 23:37:32 -0400"
     },
     "done": true
   },
