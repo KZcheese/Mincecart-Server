@@ -197,6 +197,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2023-05-05 21:10:56 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2022-12-24 21:54:25 -0500"
@@ -332,6 +338,12 @@
   "create:recipes/create.palettes/cut_ochrum_wall_from_ochrum_stonecutting": {
     "criteria": {
       "has_ochrum": "2023-04-25 22:27:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2023-05-05 21:14:59 -0400"
     },
     "done": true
   },
@@ -908,6 +920,12 @@
   "create:recipes/create.base/crafting/kinetics/andesite_ladder": {
     "criteria": {
       "has_item": "2023-01-09 18:34:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2023-05-06 22:24:32 -0400"
     },
     "done": true
   },
@@ -1661,6 +1679,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2023-05-05 21:29:41 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/appliances/diving_helmet": {
     "criteria": {
       "has_item": "2023-01-02 18:32:15 -0500"
@@ -1712,6 +1736,12 @@
   "create:recipes/food/campfire_cooking/bread": {
     "criteria": {
       "has_item": "2023-01-15 09:10:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2023-05-05 21:54:38 -0400"
     },
     "done": true
   },
@@ -1946,6 +1976,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2023-05-02 20:11:50 -0400",
+      "minecraft:soul_sand_valley": "2023-05-05 21:13:29 -0400",
       "minecraft:basalt_deltas": "2023-01-22 16:32:27 -0500",
       "minecraft:warped_forest": "2023-01-22 16:32:59 -0500"
     },
@@ -2044,6 +2075,12 @@
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2022-12-25 00:07:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2023-05-06 22:24:32 -0400"
     },
     "done": true
   },
@@ -3651,6 +3688,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2023-05-09 12:55:50 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2022-12-24 22:27:24 -0500"
@@ -3750,6 +3793,12 @@
   "create:recipes/create.palettes/cut_crimsite_bricks_from_stone_types_crimsite_stonecutting": {
     "criteria": {
       "has_stone_types_crimsite": "2023-01-16 09:35:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-05-05 21:06:47 -0400"
     },
     "done": true
   },
@@ -4176,6 +4225,12 @@
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2022-12-25 00:38:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2023-05-06 22:24:32 -0400"
     },
     "done": true
   },
@@ -4614,6 +4669,12 @@
   "create:recipes/create.base/crafting/logistics/display_link": {
     "criteria": {
       "has_item": "2023-03-27 22:32:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2023-05-05 21:28:01 -0400"
     },
     "done": true
   },
@@ -5118,8 +5179,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2023-01-01 00:31:44 -0500",
+      "minecraft:blaze": "2023-05-05 21:04:11 -0400",
       "minecraft:skeleton": "2022-12-25 00:11:42 -0500",
       "minecraft:elder_guardian": "2023-01-22 15:40:24 -0500",
+      "minecraft:ghast": "2023-05-05 21:36:37 -0400",
       "minecraft:guardian": "2023-01-22 15:31:00 -0500",
       "minecraft:magma_cube": "2023-01-22 16:33:34 -0500",
       "minecraft:spider": "2022-12-25 21:56:47 -0500",
@@ -5127,6 +5190,7 @@
       "minecraft:slime": "2023-01-01 00:57:55 -0500",
       "minecraft:zombified_piglin": "2023-01-22 16:35:07 -0500",
       "minecraft:witch": "2023-01-14 17:11:01 -0500",
+      "minecraft:wither_skeleton": "2023-05-05 21:23:04 -0400",
       "minecraft:enderman": "2023-05-02 23:58:41 -0400",
       "minecraft:zombie": "2022-12-25 00:11:26 -0500",
       "minecraft:drowned": "2022-12-25 23:14:31 -0500",
@@ -5149,6 +5213,12 @@
   "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2023-01-10 21:51:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2023-05-05 21:29:41 -0400"
     },
     "done": true
   },
@@ -5359,6 +5429,12 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2023-01-23 22:13:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2023-05-05 21:06:47 -0400"
     },
     "done": true
   },
@@ -6323,6 +6399,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2023-05-05 21:29:41 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_veridium_slab_from_veridium_stonecutting": {
     "criteria": {
       "has_veridium": "2022-12-25 00:12:31 -0500"
@@ -6964,6 +7046,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2023-05-05 21:28:01 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/dripstone_pillar_from_dripstone_block_stonecutting": {
     "criteria": {
       "has_dripstone_block": "2023-05-02 21:17:07 -0400"
@@ -7111,6 +7199,12 @@
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2023-01-19 22:33:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2023-05-05 21:14:59 -0400"
     },
     "done": true
   },
@@ -7377,6 +7471,7 @@
       "sweet_berries": "2023-05-02 21:13:06 -0400",
       "rice": "2023-01-10 09:20:16 -0500",
       "sugar_cane": "2022-12-25 00:30:08 -0500",
+      "nether_wart": "2023-05-05 21:28:03 -0400",
       "wheat": "2022-12-25 21:43:17 -0500",
       "carrot": "2023-01-01 00:33:56 -0500"
     },
@@ -7484,6 +7579,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2023-05-05 21:20:28 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
     "criteria": {
       "has_copper_block": "2023-01-03 21:59:46 -0500"
@@ -7493,6 +7594,12 @@
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2023-01-05 21:27:57 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2023-05-06 22:24:32 -0400"
     },
     "done": true
   },
@@ -7613,6 +7720,12 @@
   "create:recipes/create.palettes/cut_ochrum_from_ochrum_stonecutting": {
     "criteria": {
       "has_ochrum": "2023-04-25 22:27:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2023-05-05 11:25:22 -0400"
     },
     "done": true
   },
@@ -7802,6 +7915,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2023-05-05 21:06:47 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2023-01-23 22:13:19 -0500"
@@ -7967,6 +8086,12 @@
   "create:recipes/create.palettes/cut_dripstone_brick_stairs_from_dripstone_block_stonecutting": {
     "criteria": {
       "has_dripstone_block": "2023-05-02 21:17:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2023-05-05 21:14:59 -0400"
     },
     "done": true
   },

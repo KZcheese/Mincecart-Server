@@ -677,6 +677,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2023-05-06 23:52:28 -0400"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/misc/gold_nugget_from_smelting_knife": {
     "criteria": {
       "has_golden_knife": "2022-12-24 22:31:45 -0500"
@@ -737,6 +743,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2023-05-06 23:52:28 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_granite_brick_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-12-29 22:59:41 -0500"
@@ -788,6 +800,12 @@
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2022-12-25 00:19:53 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/tatami_block_from_full": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
     },
     "done": true
   },
@@ -1509,6 +1527,7 @@
     "criteria": {
       "minecraft:pig": "2023-01-08 21:09:39 -0500",
       "minecraft:sheep": "2023-01-08 21:10:40 -0500",
+      "minecraft:mooshroom": "2023-05-06 22:53:56 -0400",
       "minecraft:cow": "2023-01-08 21:05:38 -0500",
       "minecraft:chicken": "2023-01-08 21:10:09 -0500",
       "minecraft:bee": "2023-01-03 23:00:28 -0500"
@@ -1836,6 +1855,12 @@
   "create:recipes/create.palettes/polished_cut_dripstone_wall_from_dripstone_block_stonecutting": {
     "criteria": {
       "has_dripstone_block": "2023-05-02 21:51:46 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/painting_from_canvas": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
     },
     "done": true
   },
@@ -2183,6 +2208,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/tatami": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2022-12-25 00:00:03 -0500"
@@ -2231,6 +2262,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/half_tatami_mat": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2022-12-24 22:15:31 -0500"
@@ -2264,6 +2301,12 @@
   "create:recipes/create.palettes/small_calcite_brick_wall_from_calcite_stonecutting": {
     "criteria": {
       "has_calcite": "2023-05-02 20:54:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-05-06 23:06:15 -0400"
     },
     "done": true
   },
@@ -2555,6 +2598,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/scaffolding_from_canvas": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
+    },
+    "done": true
+  },
   "charm:totem_of_preserving/use_totem_of_preserving": {
     "criteria": {
       "used_totem_of_preserving": "2023-01-05 22:06:49 -0500"
@@ -2564,6 +2613,12 @@
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2022-12-24 22:15:31 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/full_tatami_mat_from_halves": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
     },
     "done": true
   },
@@ -2795,6 +2850,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/canvas_sign": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooking/vegetable_noodles": {
     "criteria": {
       "has_any_ingredient": "2022-12-24 22:16:34 -0500"
@@ -2942,6 +3003,12 @@
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2022-12-24 22:15:31 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/roasted_mutton_chops": {
+    "criteria": {
+      "has_the_recipe": "2023-05-06 22:51:17 -0400"
     },
     "done": true
   },
@@ -3712,6 +3779,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/basket": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_limestone_brick_stairs_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2023-01-11 00:00:49 -0500"
@@ -3769,6 +3842,12 @@
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2023-01-02 18:30:13 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/canvas_rug": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
     },
     "done": true
   },
@@ -3889,6 +3968,12 @@
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-01-02 17:31:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2023-05-06 23:51:05 -0400"
     },
     "done": true
   },
@@ -4257,6 +4342,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/misc/book_from_canvas": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_cut_granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-12-29 22:59:41 -0500"
@@ -4290,6 +4381,12 @@
   "farmersdelight:main/eat_comfort_food": {
     "criteria": {
       "comfort": "2023-01-11 13:00:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-05-06 23:06:15 -0400"
     },
     "done": true
   },
@@ -4505,6 +4602,12 @@
   "create:recipes/create.palettes/small_limestone_brick_slab_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2023-01-11 00:00:58 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/full_tatami_mat": {
+    "criteria": {
+      "has_canvas": "2023-05-06 23:25:43 -0400"
     },
     "done": true
   },

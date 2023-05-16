@@ -365,6 +365,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2023-05-07 10:15:15 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_cut_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-12-28 00:28:07 -0500"
@@ -386,6 +392,12 @@
   "create:recipes/create.base/crafting/materials/copper_nugget": {
     "criteria": {
       "has_item": "2022-12-29 21:53:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-05 23:09:18 -0400"
     },
     "done": true
   },
@@ -1056,6 +1068,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2023-05-07 10:44:10 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2022-12-28 00:24:38 -0500"
@@ -1281,6 +1299,12 @@
   "create:recipes/create.palettes/cut_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-12-28 00:28:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2023-05-07 11:45:33 -0400"
     },
     "done": true
   },
@@ -2650,6 +2674,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2023-05-07 12:41:34 -0400",
       "minecraft:pig": "2022-12-29 22:56:00 -0500",
       "minecraft:sheep": "2022-12-29 21:24:02 -0500",
       "minecraft:cow": "2022-12-29 21:27:25 -0500",
@@ -2756,6 +2781,12 @@
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2022-12-28 00:28:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2023-05-07 10:15:15 -0400"
     },
     "done": true
   },
@@ -3140,6 +3171,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2022-12-27 23:53:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_the_recipe": "2023-05-07 11:53:14 -0400"
     },
     "done": true
   },
@@ -3996,6 +4033,13 @@
       "has_item": "2022-12-30 10:14:55 -0500"
     },
     "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:jellie": "2023-05-07 12:38:39 -0400",
+      "minecraft:british_shorthair": "2023-05-07 10:44:10 -0400"
+    },
+    "done": false
   },
   "farmersdelight:recipes/farmersdelight/barbecue_stick": {
     "criteria": {
