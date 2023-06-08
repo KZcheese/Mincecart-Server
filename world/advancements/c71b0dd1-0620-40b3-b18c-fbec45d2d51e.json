@@ -2073,6 +2073,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_netherbrick": "2023-05-17 21:26:14 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/small_scoria_brick_stairs_from_scoria_stonecutting": {
     "criteria": {
       "has_scoria": "2022-12-30 12:22:26 -0500"

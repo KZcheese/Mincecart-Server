@@ -89,6 +89,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2023-05-16 23:09:34 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2022-12-29 22:48:57 -0500"
@@ -110,6 +116,12 @@
   "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2022-12-29 22:30:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2023-05-16 21:31:30 -0400"
     },
     "done": true
   },
@@ -302,6 +314,12 @@
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-12-28 00:26:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2023-05-16 23:09:34 -0400"
     },
     "done": true
   },
@@ -1013,6 +1031,12 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2023-05-16 23:00:03 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2022-12-29 23:20:51 -0500"
@@ -1711,6 +1735,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2023-05-16 23:09:34 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-12-28 00:29:34 -0500"
@@ -2086,6 +2116,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2023-05-16 23:09:34 -0400"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/sticker": {
     "criteria": {
       "has_item": "2022-12-30 11:15:27 -0500"
@@ -2191,6 +2227,12 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2022-12-29 22:20:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-05-16 23:09:34 -0400"
     },
     "done": true
   },
@@ -2605,6 +2647,12 @@
   "create:recipes/create.base/crafting/materials/copper_nugget": {
     "criteria": {
       "has_item": "2022-12-30 10:51:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-15 22:53:18 -0400"
     },
     "done": true
   },
@@ -3394,6 +3442,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2023-05-16 23:09:34 -0400"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooking/hot_cocoa": {
     "criteria": {
       "has_any_ingredient": "2023-01-05 23:57:15 -0500"
@@ -3808,6 +3862,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2023-05-16 23:09:34 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2023-01-01 11:04:48 -0500"
@@ -4120,6 +4180,7 @@
       "tomato": "2022-12-29 23:06:58 -0500",
       "beetroot": "2022-12-29 22:08:55 -0500",
       "sugar_cane": "2022-12-29 22:08:35 -0500",
+      "potato": "2023-05-15 23:44:33 -0400",
       "nether_wart": "2023-05-05 22:24:11 -0400",
       "wheat": "2023-01-05 23:58:40 -0500",
       "carrot": "2023-01-08 20:28:53 -0500"
