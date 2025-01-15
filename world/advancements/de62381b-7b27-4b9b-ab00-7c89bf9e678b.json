@@ -1883,30 +1883,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coarse_dirt": {
-    "criteria": {
-      "has_gravel": "2025-01-14 00:00:23 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/fletching_table": {
-    "criteria": {
-      "has_flint": "2025-01-14 00:01:01 -0500"
-    },
-    "done": true
-  },
-  "create:recipes/misc/blasting/zinc_ingot_from_raw_ore": {
-    "criteria": {
-      "has_item": "2025-01-14 00:06:00 -0500"
-    },
-    "done": true
-  },
-  "create:recipes/misc/smelting/zinc_ingot_from_raw_ore": {
-    "criteria": {
-      "has_item": "2025-01-14 00:06:00 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-01-13 23:57:36 -0500"
@@ -1916,6 +1892,30 @@
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2025-01-13 23:57:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-13 23:57:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-01-14 00:00:23 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/flint": {
+    "criteria": {
+      "has_item": "2025-01-14 00:00:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-14 00:01:01 -0500"
     },
     "done": true
   },
@@ -1931,21 +1931,21 @@
     },
     "done": true
   },
-  "tconstruct:recipes/misc/common/flint": {
+  "create:recipes/misc/blasting/zinc_ingot_from_raw_ore": {
     "criteria": {
-      "has_item": "2025-01-14 00:00:23 -0500"
+      "has_item": "2025-01-14 00:06:00 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/zinc_ingot_from_raw_ore": {
+    "criteria": {
+      "has_item": "2025-01-14 00:06:00 -0500"
     },
     "done": true
   },
   "create:recipes/misc/crafting/materials/raw_zinc_block": {
     "criteria": {
       "has_item": "2025-01-14 00:06:00 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
-    "criteria": {
-      "has_raw_copper": "2025-01-13 23:57:36 -0500"
     },
     "done": true
   },
