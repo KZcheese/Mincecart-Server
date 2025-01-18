@@ -274,6 +274,7 @@
       "minecraft:old_growth_birch_forest": "2025-01-13 22:14:07 -0500",
       "minecraft:meadow": "2025-01-14 20:54:58 -0500",
       "minecraft:windswept_gravelly_hills": "2025-01-13 22:44:35 -0500",
+      "minecraft:savanna": "2025-01-16 22:34:11 -0500",
       "minecraft:plains": "2025-01-13 20:10:55 -0500"
     },
     "done": false
@@ -871,6 +872,7 @@
       "cabbage": "2025-01-15 23:03:35 -0500",
       "sweet_berries": "2025-01-14 20:58:53 -0500",
       "tomato": "2025-01-15 22:18:25 -0500",
+      "rice": "2025-01-16 23:26:22 -0500",
       "brown_mushroom": "2025-01-13 20:30:45 -0500",
       "beetroot": "2025-01-16 21:29:45 -0500",
       "potato": "2025-01-15 20:39:52 -0500",
@@ -988,7 +990,8 @@
       "bread": "2025-01-13 21:56:12 -0500",
       "salmon": "2025-01-15 21:28:33 -0500",
       "cooked_chicken": "2025-01-13 23:34:41 -0500",
-      "cooked_salmon": "2025-01-13 22:15:58 -0500"
+      "cooked_salmon": "2025-01-13 22:15:58 -0500",
+      "carrot": "2025-01-16 23:54:44 -0500"
     },
     "done": false
   },
@@ -1147,7 +1150,8 @@
       "minecraft:pillager": "2025-01-14 22:03:23 -0500",
       "minecraft:spider": "2025-01-13 20:44:28 -0500",
       "minecraft:creeper": "2025-01-13 23:06:48 -0500",
-      "minecraft:zombie": "2025-01-13 23:39:22 -0500"
+      "minecraft:zombie": "2025-01-13 23:39:22 -0500",
+      "minecraft:drowned": "2025-01-16 23:56:12 -0500"
     },
     "done": false
   },
@@ -3470,6 +3474,126 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2025-01-15 23:01:23 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_rice": {
+    "criteria": {
+      "plant_rice": "2025-01-16 23:26:22 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-01-16 23:30:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-01-16 23:30:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-01-16 23:30:16 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/potato_from_crate": {
+    "criteria": {
+      "has_potato_crate": "2025-01-16 23:40:29 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
+    "criteria": {
+      "beef_patty": "2025-01-16 23:46:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_smoking": {
+    "criteria": {
+      "beef_patty": "2025-01-16 23:46:50 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty": {
+    "criteria": {
+      "beef_patty": "2025-01-16 23:46:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2025-01-16 23:49:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-01-17 00:05:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-01-17 00:05:09 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-01-17 00:09:59 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-01-17 00:09:59 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/egg_sandwich": {
+    "criteria": {
+      "has_fried_egg": "2025-01-18 00:37:40 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cabbage_from_leaves": {
+    "criteria": {
+      "has_cabbage_leaf": "2025-01-18 00:38:52 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bacon_sandwich": {
+    "criteria": {
+      "has_bacon": "2025-01-18 00:37:40 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon_from_campfire_cooking": {
+    "criteria": {
+      "cooked_bacon": "2025-01-18 00:36:03 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon_from_smoking": {
+    "criteria": {
+      "cooked_bacon": "2025-01-18 00:36:03 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bacon_and_eggs": {
+    "criteria": {
+      "has_bacon": "2025-01-18 00:37:40 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon": {
+    "criteria": {
+      "cooked_bacon": "2025-01-18 00:36:03 -0500"
     },
     "done": true
   },
