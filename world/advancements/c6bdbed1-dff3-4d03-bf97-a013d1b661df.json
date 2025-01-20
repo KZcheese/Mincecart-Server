@@ -617,6 +617,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-01-14 20:34:43 -0500",
+      "minecraft:blaze": "2025-01-18 22:52:09 -0500",
       "minecraft:skeleton": "2025-01-12 23:26:29 -0500",
       "minecraft:ghast": "2025-01-16 23:07:09 -0500",
       "minecraft:hoglin": "2025-01-16 23:40:27 -0500",
@@ -627,6 +628,7 @@
       "minecraft:creeper": "2025-01-12 23:28:31 -0500",
       "minecraft:evoker": "2025-01-14 20:50:33 -0500",
       "minecraft:witch": "2025-01-12 23:19:20 -0500",
+      "minecraft:wither_skeleton": "2025-01-18 22:51:34 -0500",
       "minecraft:husk": "2025-01-18 20:30:07 -0500",
       "minecraft:piglin": "2025-01-16 23:16:42 -0500",
       "minecraft:enderman": "2025-01-12 22:52:55 -0500",
@@ -818,6 +820,7 @@
   },
   "tconstruct:world/slime_collector": {
     "criteria": {
+      "magma_cream": "2025-01-18 22:36:35 -0500",
       "earth": "2025-01-12 22:54:43 -0500"
     },
     "done": false
@@ -5045,13 +5048,25 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb": {
     "criteria": {
-      "has_gold_backpack": "2025-01-18 21:18:03 -0500"
+      "has_cut_copper": "2025-01-18 21:11:16 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb": {
+  "minecraft:recipes/building_blocks/cut_copper_slab": {
+    "criteria": {
+      "has_cut_copper": "2025-01-18 21:11:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs": {
+    "criteria": {
+      "has_cut_copper": "2025-01-18 21:11:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting": {
     "criteria": {
       "has_cut_copper": "2025-01-18 21:11:16 -0500"
     },
@@ -5087,9 +5102,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper_slab": {
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
     "criteria": {
-      "has_cut_copper": "2025-01-18 21:11:16 -0500"
+      "has_copper_block": "2025-01-18 21:11:19 -0500"
     },
     "done": true
   },
@@ -5099,21 +5114,351 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
     "criteria": {
-      "has_copper_block": "2025-01-18 21:11:19 -0500"
+      "has_gold_backpack": "2025-01-18 21:18:03 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper_stairs": {
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
-      "has_cut_copper": "2025-01-18 21:11:16 -0500"
+      "has_gold_nugget": "2025-01-18 22:36:28 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting": {
+  "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
-      "has_cut_copper": "2025-01-18 21:11:16 -0500"
+      "has_gold_nugget": "2025-01-18 22:36:28 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/gadgets/frame/gold": {
+    "criteria": {
+      "has_item": "2025-01-18 22:36:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-01-18 22:36:35 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/smeltery/scorched/nether_grout": {
+    "criteria": {
+      "has_item": "2025-01-18 22:36:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-01-18 22:39:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-01-18 22:49:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-01-18 22:49:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-01-18 22:49:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-01-18 22:49:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-01-18 22:49:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-01-18 22:49:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-01-18 22:49:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-01-18 22:49:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-01-18 22:49:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-01-18 22:49:31 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/tools/modifiers/wither_bone_conversion": {
+    "criteria": {
+      "has_bone": "2025-01-18 22:51:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-01-18 22:52:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-01-18 22:52:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-01-18 22:52:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-01-18 22:56:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-01-18 22:56:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-01-18 23:01:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-01-18 23:01:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2025-01-18 23:53:13 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/spruce_cabinet": {
+    "criteria": {
+      "has_spruce_trapdoor": "2025-01-18 23:58:43 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/glass_from_framed_glass": {
+    "criteria": {
+      "has_item": "2025-01-19 00:00:10 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/framed_glass_trapdoor": {
+    "criteria": {
+      "has_item": "2025-01-19 00:00:10 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/framed_glass_door": {
+    "criteria": {
+      "has_item": "2025-01-19 00:00:10 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/framed_glass_pane": {
+    "criteria": {
+      "has_ingredient": "2025-01-19 00:00:10 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-01-19 00:08:26 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2025-01-19 00:08:26 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-01-19 00:08:26 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "beef_stew": "2025-01-19 00:08:26 -0500"
+    },
+    "done": false
+  },
+  "create:recipes/misc/crafting/materials/brass_ingot_from_decompacting": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:06 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/elevator_pulley": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/tables/scorched_anvil": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:06 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/placard": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2025-01-19 22:39:29 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_scaffolding_from_brass_ingots_stonecutting": {
+    "criteria": {
+      "has_brass_ingots": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brass_hand": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_tunnel": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_funnel": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/spruce_drawers": {
+    "criteria": {
+      "has_the_recipe": "2025-01-19 23:13:33 -0500"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2025-01-19 22:59:28 -0500"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_bars_from_brass_ingots_stonecutting": {
+    "criteria": {
+      "has_brass_ingots": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/attribute_filter": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_ladder_from_brass_ingots_stonecutting": {
+    "criteria": {
+      "has_brass_ingots": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_block_from_compacting": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/tables/tinkers_anvil": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:06 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/flywheel": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/tables/tinkers_forge": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:06 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/peculiar_bell": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:08 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/tables/scorched_forge": {
+    "criteria": {
+      "has_item": "2025-01-19 22:20:06 -0500"
+    },
+    "done": true
+  },
+  "sliceanddice:recipes/misc/sprinkler": {
+    "criteria": {
+      "has_pipe": "2025-01-19 22:42:22 -0500"
     },
     "done": true
   },
