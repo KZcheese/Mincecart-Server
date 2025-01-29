@@ -66,7 +66,7 @@ dimensionalWarpDenyList = [  ]
 generatedWaystonesUnbreakable = false
 
 # Set to false to allow non-creative players to make waystones globally activated for all players.
-globalWaystoneSetupRequiresCreativeMode = true
+globalWaystoneSetupRequiresCreativeMode = false
 
 # List of leashed mobs that cannot be taken with you when teleporting
 leashedDenyList = [ "minecraft:wither" ]
