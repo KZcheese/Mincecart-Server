@@ -1,0 +1,896 @@
+---- Minecraft Crash Report ----
+// I feel sad now :(
+
+Time: 2025-02-05 20:12:39
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:63)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:215)
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:208)
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:199)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+	at knot//org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:683)
+	at knot//org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:641)
+	at knot//org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:624)
+	at knot//org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:560)
+	at knot//org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82)
+	at knot//org.apache.logging.log4j.core.Logger.log(Logger.java:162)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2022)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1875)
+	at knot//org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:175)
+	at knot//net.minecraft.server.MinecraftServer.method_43496(MinecraftServer.java:1023)
+	at knot//net.minecraft.class_2168.method_9213(class_2168.java:348)
+	at knot//net.minecraft.class_2170.method_9249(class_2170.java:292)
+	at knot//net.minecraft.class_2170.method_44252(class_2170.java:280)
+	at knot//net.minecraft.class_3176.method_13941(class_3176.java:299)
+	at knot//net.minecraft.class_3176.method_3813(class_3176.java:284)
+	at knot//net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+	at knot//net.minecraft.server.MinecraftServer$$Lambda/0x00007066713b77f8.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:63)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:215)
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:208)
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:199)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+	at knot//org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:683)
+	at knot//org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:641)
+	at knot//org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:624)
+	at knot//org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:560)
+	at knot//org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82)
+	at knot//org.apache.logging.log4j.core.Logger.log(Logger.java:162)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2022)
+	at knot//org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1875)
+	at knot//org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:175)
+	at knot//net.minecraft.server.MinecraftServer.method_43496(MinecraftServer.java:1023)
+	at knot//net.minecraft.class_2168.method_9213(class_2168.java:348)
+	at knot//net.minecraft.class_2170.method_9249(class_2170.java:292)
+	at knot//net.minecraft.class_2170.method_44252(class_2170.java:280)
+	at knot//net.minecraft.class_3176.method_13941(class_3176.java:299)
+	at knot//net.minecraft.class_3176.method_3813(class_3176.java:284)
+	at knot//net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+	at knot//net.minecraft.server.MinecraftServer$$Lambda/0x00007066713b77f8.run(Unknown Source)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=9 RUNNABLE
+	at java.base@21.0.5/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.5/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@21.0.5/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+
+"Finalizer" daemon prio=8 Id=10 WAITING on java.lang.ref.NativeReferenceQueue$Lock@39b4dc75
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@39b4dc75
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.5/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@21.0.5/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	at java.base@21.0.5/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+
+"Signal Dispatcher" daemon prio=9 Id=11 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=18 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=19 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4fa85059
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4fa85059
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@21.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+
+"JNA Cleaner" daemon prio=5 Id=43 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1bcde04a
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1bcde04a
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+
+"Thread-2" daemon prio=5 Id=44 TIMED_WAITING
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+	at knot//com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+
+
+"FileSystemWatchService" daemon prio=5 Id=45 RUNNABLE (in native)
+	at java.base@21.0.5/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@21.0.5/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:307)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+
+
+"DFU cleaning thread" daemon prio=1 Id=48 TIMED_WAITING
+	at java.base@21.0.5/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.5/java.lang.Thread.sleep(Thread.java:509)
+	at knot//org.embeddedt.modernfix.dfu.DFUBlaster$CleanerThread.run(DFUBlaster.java:59)
+
+
+"ConfigSaver" daemon prio=5 Id=49 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@ad4b072
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@ad4b072
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+
+"Timer hack thread" daemon prio=5 Id=50 TIMED_WAITING
+	at java.base@21.0.5/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.5/java.lang.Thread.sleep(Thread.java:509)
+	at knot//net.minecraft.class_156$9.run(class_156.java:839)
+
+
+"Yggdrasil Key Fetcher" daemon prio=5 Id=51 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@122f3a97
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@122f3a97
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+
+"Server thread" prio=8 Id=61 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:63)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:215)
+	...
+
+
+"DestroyJavaVM" prio=5 Id=63 RUNNABLE
+
+
+"FileSystemWatchService" daemon prio=8 Id=64 RUNNABLE (in native)
+	at java.base@21.0.5/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@21.0.5/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:307)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+
+
+"Server console handler" daemon prio=8 Id=65 RUNNABLE (in native)
+	at java.base@21.0.5/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.5/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.5/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base@21.0.5/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base@21.0.5/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
+	...
+
+	Number of locked synchronizers = 3
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@6bb3e618
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@44cb9c3c
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@2f5bedb0
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=66 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at knot//io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at knot//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+
+"C2ME Storage #1" daemon prio=8 Id=67 WAITING on java.lang.Object@7458225a
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@7458225a
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at knot//com.ishland.c2me.rewrites.chunkio.common.C2MEStorageThread.run(C2MEStorageThread.java:105)
+
+
+"C2ME Storage #2" daemon prio=8 Id=68 WAITING on java.lang.Object@2f99ef
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@2f99ef
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at knot//com.ishland.c2me.rewrites.chunkio.common.C2MEStorageThread.run(C2MEStorageThread.java:105)
+
+
+"C2ME Storage #3" daemon prio=8 Id=69 WAITING on java.lang.Object@181dcfaa
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@181dcfaa
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at knot//com.ishland.c2me.rewrites.chunkio.common.C2MEStorageThread.run(C2MEStorageThread.java:105)
+
+
+"C2ME Storage #4" daemon prio=8 Id=70 WAITING on java.lang.Object@68db9774
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@68db9774
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at knot//com.ishland.c2me.rewrites.chunkio.common.C2MEStorageThread.run(C2MEStorageThread.java:105)
+
+
+"C2ME Storage #5" daemon prio=8 Id=71 WAITING on java.lang.Object@5da432c7
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@5da432c7
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at knot//com.ishland.c2me.rewrites.chunkio.common.C2MEStorageThread.run(C2MEStorageThread.java:105)
+
+
+"C2ME Storage #6" daemon prio=8 Id=72 WAITING on java.lang.Object@2138287d
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@2138287d
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at knot//com.ishland.c2me.rewrites.chunkio.common.C2MEStorageThread.run(C2MEStorageThread.java:105)
+
+
+"C2ME Storage #7" daemon prio=8 Id=73 WAITING on java.lang.Object@57aec36f
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@57aec36f
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at knot//com.ishland.c2me.rewrites.chunkio.common.C2MEStorageThread.run(C2MEStorageThread.java:105)
+
+
+"C2ME Storage #8" daemon prio=8 Id=74 WAITING on java.lang.Object@63fa9ed9
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@63fa9ed9
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at knot//com.ishland.c2me.rewrites.chunkio.common.C2MEStorageThread.run(C2MEStorageThread.java:105)
+
+
+"C2ME Storage #9" daemon prio=8 Id=75 WAITING on java.lang.Object@1f34aa6b
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@1f34aa6b
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+	at knot//com.ishland.c2me.rewrites.chunkio.common.C2MEStorageThread.run(C2MEStorageThread.java:105)
+
+
+"c2me-sched" daemon prio=5 Id=76 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7f2f0230
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7f2f0230
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+
+"CompletableFutureDelayScheduler" daemon prio=8 Id=77 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5ebb1301
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5ebb1301
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+
+"C2ME worker #1" daemon prio=4 Id=78 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@69005259
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@69005259
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+
+"C2ME worker #2" daemon prio=4 Id=79 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@69005259
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@69005259
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+
+"C2ME worker #3" daemon prio=4 Id=80 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@69005259
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@69005259
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+
+"C2ME worker #4" daemon prio=4 Id=81 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@69005259
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@69005259
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+
+"minecraft_overworld - Light" daemon prio=4 Id=82 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@535dcae0
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@535dcae0
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+
+"Server Watchdog" daemon prio=8 Id=83 RUNNABLE
+	at java.management@21.0.5/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@21.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at knot//net.minecraft.class_3178.run(class_3178.java:47)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=85 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeChunkedText(TextEncoderHelper.java:141)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:56)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	...
+
+
+"Netty Epoll Server IO #2" daemon prio=5 Id=89 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeChunkedText(TextEncoderHelper.java:141)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:56)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	...
+
+
+"Netty Epoll Server IO #3" daemon prio=5 Id=92 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeChunkedText(TextEncoderHelper.java:141)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:56)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	...
+
+
+"Netty Epoll Server IO #4" daemon prio=5 Id=97 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeChunkedText(TextEncoderHelper.java:141)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:56)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	...
+
+
+"Netty Epoll Server IO #5" daemon prio=5 Id=102 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeChunkedText(TextEncoderHelper.java:141)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:56)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	...
+
+
+"Netty Epoll Server IO #6" daemon prio=5 Id=107 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeChunkedText(TextEncoderHelper.java:141)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:56)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	...
+
+
+"Netty Epoll Server IO #7" daemon prio=5 Id=109 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at knot//io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at knot//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+
+"Netty Epoll Server IO #8" daemon prio=5 Id=113 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeChunkedText(TextEncoderHelper.java:141)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:56)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	...
+
+
+"Netty Epoll Server IO #9" daemon prio=5 Id=114 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeChunkedText(TextEncoderHelper.java:141)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:56)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	...
+
+
+"Netty Epoll Server IO #10" daemon prio=5 Id=115 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:294)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:217)
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:208)
+	at knot//org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:199)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+	at knot//org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+	...
+
+
+"Netty Epoll Server IO #11" daemon prio=5 Id=116 BLOCKED on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13 owned by "Netty Epoll Server IO #12" Id=117
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeBytes(OutputStreamManager.java:352)
+	-  blocked on org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.writeEncodedText(TextEncoderHelper.java:94)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeChunkedText(TextEncoderHelper.java:141)
+	at knot//org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:56)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:67)
+	at knot//org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:227)
+	at knot//org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:59)
+	...
+
+
+"Netty Epoll Server IO #12" daemon prio=5 Id=117 RUNNABLE
+	at java.base@21.0.5/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base@21.0.5/java.io.FileOutputStream.write(FileOutputStream.java:367)
+	at java.base@21.0.5/java.io.BufferedOutputStream.implWrite(BufferedOutputStream.java:217)
+	at java.base@21.0.5/java.io.BufferedOutputStream.write(BufferedOutputStream.java:200)
+	at java.base@21.0.5/java.io.PrintStream.implWrite(PrintStream.java:643)
+	at java.base@21.0.5/java.io.PrintStream.write(PrintStream.java:623)
+	at knot//org.apache.logging.log4j.core.util.CloseShieldOutputStream.write(CloseShieldOutputStream.java:53)
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:250)
+	-  locked org.apache.logging.log4j.core.appender.OutputStreamManager@1f888a13
+	...
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@54e47c39
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@52c15ebf
+
+
+"Netty Epoll Server IO #13" daemon prio=5 Id=118 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at knot//io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at knot//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+
+"Netty Epoll Server IO #14" daemon prio=5 Id=119 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at knot//io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at knot//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+
+"Netty Epoll Server IO #15" daemon prio=5 Id=120 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at knot//io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at knot//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+
+"minecraft_the_nether - Light" daemon prio=4 Id=179 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@39384c24
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@39384c24
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+
+"SIGINT handler" daemon prio=9 Id=309 WAITING on net.minecraft.server.Main$1@295fa650
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on net.minecraft.server.Main$1@295fa650
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Thread.join(Thread.java:2079)
+	at java.base@21.0.5/java.lang.Thread.join(Thread.java:2155)
+	at java.base@21.0.5/java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:114)
+	at java.base@21.0.5/java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:47)
+	at java.base@21.0.5/java.lang.Shutdown.runHooks(Shutdown.java:130)
+	at java.base@21.0.5/java.lang.Shutdown.exit(Shutdown.java:167)
+	-  locked java.lang.Class@48f9b29
+	...
+
+
+"Server Shutdown Thread" prio=5 Id=62 WAITING on java.lang.Thread@7231833d
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Thread@7231833d
+	at java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.5/java.lang.Thread.join(Thread.java:2079)
+	at java.base@21.0.5/java.lang.Thread.join(Thread.java:2155)
+	at knot//net.minecraft.server.MinecraftServer.method_3747(MinecraftServer.java:637)
+	at knot//net.minecraft.server.Main$1.run(Main.java:242)
+
+
+
+Stacktrace:
+	at knot//net.minecraft.class_3178.run(class_3178.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 0, entities: 44,44,37,532,532,0,0 [minecraft:sheep:13,artifacts:mimic:6,minecraft:skeleton:4,minecraft:boat:4,minecraft:enderman:4], block_entities: 75 [<lithium_sleeping>:57,minecraft:mob_spawner:10,minecraft:beehive:3,minecraft:campfire:2,minecraft:furnace:2], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 2401 E: 44,44,37,532,532,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.8.0-51-generic
+	Java Version: 21.0.5, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 273742792 bytes (261 MiB) / 1442840576 bytes (1376 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 94 Stepping 3
+	Microarchitecture: Skylake (Client)
+	Frequency (GHz): 2.60
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: HD Graphics 530
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 256.00
+	Graphics card #0 deviceId: 0x191b
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 12037.96
+	Virtual memory used (MB): 18807.93
+	Swap memory total (MB): 4096.00
+	Swap memory used (MB): 4095.69
+	JVM Flags: 3 total; -Xms512M -Xmx8G -XX:+UseG1GC
+	Fabric Mods: 
+		alternate-current: Alternate Current 1.9.0
+		appleskin: AppleSkin 2.5.1+mc1.20
+		architectury: Architectury 9.2.14
+		artifacts: Artifacts 9.5.13
+			cardinal-components-base: Cardinal Components API (base) 5.2.2
+			cardinal-components-entity: Cardinal Components API (entities) 5.2.2
+			expandability: ExpandAbility 9.0.4
+			step-height-entity-attribute: Step Height Entity Attribute 1.2.0
+		balm-fabric: Balm 7.3.11
+			kuma_api: KumaAPI 20.1.9-SNAPSHOT
+		betteradvancements: Better Advancements 0.4.2.25
+		c2me: Concurrent Chunk Management Engine 0.2.0+alpha.11.13
+			c2me-base: Concurrent Chunk Management Engine (Base) 0.2.0+alpha.11.13
+			c2me-fixes-chunkio-threading-issues: Concurrent Chunk Management Engine (Fixes/Chunk IO/Threading Issues) 0.2.0+alpha.11.13
+			c2me-fixes-general-threading-issues: Concurrent Chunk Management Engine (Fixes/General/Threading Issues) 0.2.0+alpha.11.13
+			c2me-fixes-worldgen-threading-issues: Concurrent Chunk Management Engine (Fixes/WorldGen/Threading Issues) 0.2.0+alpha.11.13
+			c2me-fixes-worldgen-vanilla-bugs: Concurrent Chunk Management Engine (Fixes/WorldGen/Vanilla Bugs) 0.2.0+alpha.11.13
+			c2me-notickvd: Concurrent Chunk Management Engine (No Tick View Distance) 0.2.0+alpha.11.13
+			c2me-opts-allocs: Concurrent Chunk Management Engine (Optimizations/Memory Allocations) 0.2.0+alpha.11.13
+			c2me-opts-chunk-access: Concurrent Chunk Management Engine (Optimizations/Chunk Access) 0.2.0+alpha.11.13
+			c2me-opts-chunkio: Concurrent Chunk Management Engine (Optimizations/Chunk IO) 0.2.0+alpha.11.13
+			c2me-opts-math: Concurrent Chunk Management Engine (Optimizations/Math) 0.2.0+alpha.11.13
+			c2me-opts-scheduling: Concurrent Chunk Management Engine (Optimizations/Scheduling) 0.2.0+alpha.11.13
+			c2me-opts-worldgen-general: Concurrent Chunk Management Engine (Optimizations/General WorldGen) 0.2.0+alpha.11.13
+			c2me-opts-worldgen-vanilla: Concurrent Chunk Management Engine (Optimizations/Vanilla WorldGen) 0.2.0+alpha.11.13
+			c2me-rewrites-chunk-serializer: Concurrent Chunk Management Engine (Rewrites/Chunk Serializer) 0.2.0+alpha.11.13
+			c2me-rewrites-chunkio: Concurrent Chunk Management Engine (Rewrites/Chunk IO) 0.2.0+alpha.11.13
+			c2me-server-utils: Concurrent Chunk Management Engine (Server Utils) 0.2.0+alpha.11.13
+			c2me-threading-chunkio: Concurrent Chunk Management Engine (Threading/WorldGen) 0.2.0+alpha.11.13
+			c2me-threading-lighting: Concurrent Chunk Management Engine (Threading/Lighting) 0.2.0+alpha.11.13
+			c2me-threading-worldgen: Concurrent Chunk Management Engine (Threading/WorldGen) 0.2.0+alpha.11.13
+			com_ibm_async_asyncutil: asyncutil 0.1.0
+			net_objecthunter_exp4j: exp4j 0.4.8
+			org_threadly_threadly: threadly 7.0
+		chisel: Chisel Refabricated 1.8.0
+		cloth-config: Cloth Config v11 11.1.136
+			cloth-basic-math: cloth-basic-math 0.6.1
+		clumps: Clumps 12.0.0.4
+		collective: Collective 7.87
+		create: Create 0.5.1-j-build.1631+mc1.20.1
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			forgeconfigapiport: Forge Config API Port 8.0.0
+			milk: Milk Lib 1.2.60
+				dripstone_fluid_lib: Dripstone Fluid Lib 3.0.2
+			porting_lib_obj_loader: Porting Lib Obj Loader 2.3.8+1.20.1
+			porting_lib_tags: Porting Lib Tags 3.0
+			reach-entity-attributes: Reach Entity Attributes 2.4.0
+			registrate-fabric: Registrate for Fabric 1.3.79-MC1.20.1
+				porting_lib_model_generators: Porting Lib Model Generators 2.1.1090+1.20
+					porting_lib_gametest: Porting Lib GameTest 2.1.1090+1.20
+					porting_lib_model_materials: Porting Lib Model Materials 2.1.1090+1.20
+		create_structures: Create: Structures 1.1.0
+		creativecore: CreativeCore 2.12.24
+			net_minecraftforge_eventbus: eventbus 6.0.3
+		deimos: Deimos 1.20.1-1-fabric
+		doubledoors: Double Doors 5.9
+		entityculling: EntityCulling 1.7.2
+		fabric-api: Fabric API 0.92.3+1.20.1
+			fabric-api-base: Fabric API Base 0.4.31+1802ada577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.36+1802ada577
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.13+1802ada577
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.11+1802ada577
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.1+1802ada577
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.34+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.13+1802ada577
+			fabric-commands-v0: Fabric Commands (v0) 0.2.51+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.65+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.12+1802ada577
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.5+1802ada577
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.19+1802ada577
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.0.1+de0fd6d177
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.3.5+1802ada577
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.54+1802ada577
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.0+1c78457f77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.3+13a40c6677
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.63+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.40+1802ada577
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.28+1802ada577
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.13+1802ada577
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.22+1802ada577
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.2.2+1802ada577
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.46+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.9+1802ada577
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.51+1802ada577
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.12+13a40c6677
+			fabric-networking-v0: Fabric Networking (v0) 0.3.52+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.4+1802ada577
+			fabric-particles-v1: Fabric Particles (v1) 1.1.2+1802ada577
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.22+1802ada577
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.4+1802ada577
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.37+92a0d36777
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.28+1802ada577
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.8+1802ada577
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.11+fb82e9d777
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.31+1802ada577
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.5+8dd72ea377
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.1+1802ada577
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.0+kotlin.2.1.0
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.1.0
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.1.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.1.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.1.0
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.26.1
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.9.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.9.0
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.6.1
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.6.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.6.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.7.3
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.7.3
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.7.3
+		fabricloader: Fabric Loader 0.16.10
+			mixinextras: MixinExtras 0.4.1
+		farmersdelight: Farmer's Delight 1.20.1-2.2.5+refabricated
+			mm: Manningham Mills 2.3
+			porting_lib_recipe_book_categories: Porting Lib Recipe Book Categories 2.3.8+1.20.1
+		ferritecore: FerriteCore 6.0.1
+		gravestones: Gravestones v1.15
+		gravestonesfix: GravestonesFix 1.1.0
+		inventorysorter: Inventory Sorter 1.9.0-1.20
+			kyrptconfig: Kyrpt Config 1.5.6-1.20
+		jade: Jade 11.12.0+fabric
+		jadeaddons: Jade Addons 5.4.0+fabric
+		jamlib: JamLib 0.6.1+1.20.x
+		java: OpenJDK 64-Bit Server VM 21
+		journeymap: Journeymap 5.10.3
+			journeymap-api-fabric: JourneyMap API 1.20-1.9-fabric-SNAPSHOT
+		justzoom: Just Zoom 2.0.0
+		kleeslabs: KleeSlabs 15.0.2
+		konkrete: Konkrete 1.8.1
+		krypton: Krypton 0.2.3
+			com_velocitypowered_velocity-native: velocity-native 3.2.0-SNAPSHOT
+		lithium: Lithium 0.11.2
+		mca: Minecraft Comes Alive 7.5.21+1.20.1
+		memoryleakfix: Memory Leak Fix 1.1.5
+		minecraft: Minecraft 1.20.1
+		modernfix: ModernFix 5.20.0+mc1.20.1
+		netherportalfix: NetherPortalFix 13.0.1
+		nochatreports: No Chat Reports 1.20.1-v2.2.2
+		noisium: Noisium 2.3.0+mc1.20-1.20.1
+		notenoughanimations: NotEnoughAnimations 1.9.0
+		packetfixer: Packet Fixer 1.4.3
+		placeholder-api: Placeholder API 2.1.3+1.20.1
+		quickstack: QuickStack 1.0.2+1.20.1
+			carrotconfig: CarrotConfig 1.1.1+1.20.1
+			itemfavorites: ItemFavorites 1.0.5+1.20.1
+		rightclickharvest: Right Click Harvest 3.2.3+1.19.x-1.20.1-fabric
+		roughlyenoughitems: Roughly Enough Items 12.1.785
+			error_notifier: Error Notifier 1.0.9
+		skinlayers3d: 3d-Skin-Layers 1.7.4
+		slabstoblocks: Craft Slabs Back Into Blocks 2
+		sliceanddice: Create Slice & Dice 3.3.1
+		sophisticatedbackpacks: Sophisticated Backpacks 1.20.1-3.20.17.1.60
+		sophisticatedcore: Sophisticated Core 1.20.1-0.7.12.2.96
+			team_reborn_energy: Energy 3.0.0
+		sound_physics_remastered: Sound Physics Remastered 1.20.1-1.4.8
+		spawnanimations: Spawn Animations 1.10+mod
+		storagedrawers: Storage Drawers 12.10.5
+		tconstruct: Hephaestus 1.20.1-3.6.4.287
+			com_electronwill_night-config_core: core 3.6.6
+			com_electronwill_night-config_toml: toml 3.6.6
+			mantle: Mantle 1.20.1-1.9.277
+				star: Star 1.5.2+1.20.1
+			mixinsquared: MixinSquared 0.1.1
+			porting_lib_accessors: Porting Lib Accessors 2.3.9-beta.50+1.20.1
+			porting_lib_attributes: Porting Lib Attributes 2.3.9-beta.50+1.20.1
+			porting_lib_base: Porting Lib Base 2.3.9-beta.50+1.20.1
+				porting_lib_gui_utils: Porting Lib Gui Utils 2.3.9-beta.50+1.20.1
+				porting_lib_mixin_extensions: Porting Lib Mixin Extensions 2.3.9-beta.50+1.20.1
+			porting_lib_brewing: Porting Lib Brewing 2.3.9-beta.50+1.20.1
+			porting_lib_client_events: Porting Lib Client Events 2.3.9-beta.50+1.20.1
+			porting_lib_common: Porting Lib Common 2.3.9-beta.50+1.20.1
+			porting_lib_config: Porting Lib Config 2.3.9-beta.50+1.20.1
+			porting_lib_core: Porting Lib Core 2.3.9-beta.50+1.20.1
+			porting_lib_data: Porting Lib Data 2.3.9-beta.50+1.20.1
+			porting_lib_entity: Porting Lib Entity 2.3.9-beta.50+1.20.1
+			porting_lib_extensions: Porting Lib Extensions 2.3.9-beta.50+1.20.1
+			porting_lib_fluids: Porting Lib Fluids 2.3.9-beta.50+1.20.1
+			porting_lib_items: Porting Lib Items 2.3.9-beta.50+1.20.1
+			porting_lib_lazy_registration: Porting Lib Lazy Register 2.3.9-beta.50+1.20.1
+			porting_lib_loot: Porting Lib Loot 2.3.9-beta.50+1.20.1
+			porting_lib_model_loader: Porting Lib Model Loader 2.3.9-beta.50+1.20.1
+			porting_lib_models: Porting Lib Models 2.3.9-beta.50+1.20.1
+			porting_lib_networking: Porting Lib Networking 2.3.9-beta.50+1.20.1
+			porting_lib_tool_actions: Porting Lib Tool Actions 2.3.9-beta.50+1.20.1
+			porting_lib_transfer: Porting Lib Transfer 2.3.9-beta.50+1.20.1
+			porting_lib_utility: Porting Lib Utility 2.3.9-beta.50+1.20.1
+		tectonic: Tectonic 2.4.1b
+		terralith: Terralith 2.5.4
+		trinkets: Trinkets 3.7.2
+		waystones: Waystones 14.1.6
+		yeetusexperimentus: Yeetus Experimentus 2.3.0-build.4+mc1.20.1
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.6.2+1.20.1-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+	Server Running: false
+	Player Count: 0 / 20; []
+	Data Packs: vanilla, fabric, tectonic/terratonic
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)

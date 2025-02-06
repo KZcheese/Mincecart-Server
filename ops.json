@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "c71b0dd1-0620-40b3-b18c-fbec45d2d51e",
+    "name": "Keluvax",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "bab6f686-509a-44fb-92f2-a0cac24c4cf9",
     "name": "KZcheese",
     "level": 4,
