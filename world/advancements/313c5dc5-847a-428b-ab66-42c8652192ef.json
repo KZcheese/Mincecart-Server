@@ -274,6 +274,7 @@
       "minecraft:warm_ocean": "2025-01-20 14:59:43 -0500",
       "minecraft:deep_lukewarm_ocean": "2025-01-20 14:57:58 -0500",
       "minecraft:old_growth_birch_forest": "2025-01-13 22:06:09 -0500",
+      "minecraft:deep_dark": "2025-02-07 18:54:38 -0500",
       "minecraft:meadow": "2025-01-20 00:38:28 -0500",
       "minecraft:savanna": "2025-01-20 14:24:07 -0500",
       "minecraft:plains": "2025-01-15 16:34:58 -0500"
@@ -1899,7 +1900,9 @@
       "minecraft:wither_skeleton": "2025-01-16 16:48:57 -0500",
       "minecraft:piglin": "2025-01-15 17:00:17 -0500",
       "minecraft:enderman": "2025-01-13 22:12:41 -0500",
-      "minecraft:zombie": "2025-01-13 22:24:47 -0500"
+      "minecraft:silverfish": "2025-02-07 18:46:29 -0500",
+      "minecraft:zombie": "2025-01-13 22:24:47 -0500",
+      "minecraft:drowned": "2025-02-06 12:48:43 -0500"
     },
     "done": false
   },
@@ -4725,6 +4728,7 @@
       "tough_handle": "2025-01-16 23:50:30 -0500",
       "tool_binding": "2025-01-16 22:50:10 -0500",
       "pick_head": "2025-01-16 22:50:01 -0500",
+      "gem": "2025-02-06 12:43:49 -0500",
       "repair_kit": "2025-01-17 14:12:54 -0500",
       "hammer_head": "2025-01-19 20:28:04 -0500",
       "small_axe_head": "2025-01-22 22:35:25 -0500",
@@ -7402,6 +7406,108 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-01 12:01:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-01 12:01:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2025-02-01 12:01:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-01 12:01:59 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/brown_toolbox": {
+    "criteria": {
+      "has_item": "2025-02-01 12:15:59 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox": {
+    "criteria": {
+      "has_item": "2025-02-01 12:16:15 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
+    "criteria": {
+      "has_item": "2025-02-01 12:16:15 -0500"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2025-02-01 12:28:26 -0500"
+    },
+    "done": false
+  },
+  "create:recipes/misc/crafting/kinetics/large_water_wheel": {
+    "criteria": {
+      "has_item": "2025-02-01 12:28:35 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/filter": {
+    "criteria": {
+      "has_the_recipe": "2025-02-01 12:33:34 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/filter_clear": {
+    "criteria": {
+      "has_item": "2025-02-01 12:33:35 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/rose_quartz_lamp": {
+    "criteria": {
+      "has_item": "2025-02-01 12:34:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/zinc_block_from_compacting": {
+    "criteria": {
+      "has_item": "2025-02-01 12:34:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/andesite_alloy_from_zinc": {
+    "criteria": {
+      "has_item": "2025-02-01 12:34:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/copycat_step_from_zinc_ingots_stonecutting": {
+    "criteria": {
+      "has_zinc_ingots": "2025-02-01 12:34:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/copycat_panel_from_zinc_ingots_stonecutting": {
+    "criteria": {
+      "has_zinc_ingots": "2025-02-01 12:34:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/zinc_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2025-02-01 12:34:26 -0500"
+    },
+    "done": true
+  },
   "create:recipes/decorations/andesite_scaffolding_from_andesite_alloy_stonecutting": {
     "criteria": {
       "has_andesite_alloy": "2025-02-01 12:34:28 -0500"
@@ -7438,12 +7544,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/rose_quartz_lamp": {
-    "criteria": {
-      "has_item": "2025-02-01 12:34:26 -0500"
-    },
-    "done": true
-  },
   "create:andesite_alloy": {
     "criteria": {
       "0": "2025-02-01 12:34:28 -0500"
@@ -7468,12 +7568,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/filter": {
-    "criteria": {
-      "has_the_recipe": "2025-02-01 12:33:34 -0500"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/white_sail": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
@@ -7492,27 +7586,9 @@
     },
     "done": true
   },
-  "create:wrench_goggles": {
-    "criteria": {
-      "0": "2025-02-01 12:28:26 -0500"
-    },
-    "done": false
-  },
-  "create:funnel": {
-    "criteria": {
-      "0": "2025-02-01 12:41:13 -0500"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/materials/andesite_alloy_block": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/gearbox": {
-    "criteria": {
-      "has_item": "2025-02-01 12:16:15 -0500"
     },
     "done": true
   },
@@ -7534,21 +7610,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/large_water_wheel": {
-    "criteria": {
-      "has_item": "2025-02-01 12:28:35 -0500"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/logistics/andesite_tunnel": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-02-01 12:01:59 -0500"
     },
     "done": true
   },
@@ -7570,12 +7634,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/zinc_block_from_compacting": {
-    "criteria": {
-      "has_item": "2025-02-01 12:34:26 -0500"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/large_cogwheel": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
@@ -7585,12 +7643,6 @@
   "create:recipes/misc/crafting/logistics/andesite_funnel": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-02-01 12:01:59 -0500"
     },
     "done": true
   },
@@ -7612,27 +7664,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/andesite_alloy_from_zinc": {
-    "criteria": {
-      "has_item": "2025-02-01 12:34:26 -0500"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/copycat_step_from_zinc_ingots_stonecutting": {
-    "criteria": {
-      "has_zinc_ingots": "2025-02-01 12:34:26 -0500"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/metal_girder": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/copycat_panel_from_zinc_ingots_stonecutting": {
-    "criteria": {
-      "has_zinc_ingots": "2025-02-01 12:34:26 -0500"
     },
     "done": true
   },
@@ -7666,12 +7700,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/curiosities/brown_toolbox": {
-    "criteria": {
-      "has_item": "2025-02-01 12:15:59 -0500"
-    },
-    "done": true
-  },
   "create:recipes/decorations/andesite_bars_from_andesite_alloy_stonecutting": {
     "criteria": {
       "has_andesite_alloy": "2025-02-01 12:34:28 -0500"
@@ -7681,12 +7709,6 @@
   "create:recipes/misc/crafting/kinetics/sticker": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
-    "criteria": {
-      "has_item": "2025-02-01 12:16:15 -0500"
     },
     "done": true
   },
@@ -7702,27 +7724,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/zinc_nugget_from_decompacting": {
-    "criteria": {
-      "has_item": "2025-02-01 12:34:26 -0500"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/sticky_mechanical_piston": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
-    },
-    "done": true
-  },
-  "create:belt": {
-    "criteria": {
-      "0": "2025-02-01 12:39:44 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_candle": {
-    "criteria": {
-      "has_black_dye": "2025-02-01 12:01:59 -0500"
     },
     "done": true
   },
@@ -7738,27 +7742,219 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/appliances/filter_clear": {
-    "criteria": {
-      "has_item": "2025-02-01 12:33:35 -0500"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/display_board": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_black_wool": {
-    "criteria": {
-      "has_needed_dye": "2025-02-01 12:01:59 -0500"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/piston_extension_pole": {
     "criteria": {
       "has_item": "2025-02-01 12:34:28 -0500"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2025-02-01 12:39:44 -0500"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2025-02-01 12:41:13 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/controller_rail": {
+    "criteria": {
+      "has_item": "2025-02-06 12:28:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_the_recipe": "2025-02-06 12:30:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-02-06 13:14:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-02-06 13:15:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2025-02-06 13:23:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2025-02-06 13:23:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-06 13:23:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-06 13:23:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-06 13:23:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin_directly": "2025-02-06 14:21:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/building_blocks/common/materials/netherite_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-06 14:49:00 -0500"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/combat/common/glass/vanilla/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-02-06 20:03:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-02-06 20:03:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-02-07 18:46:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-02-07 18:51:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-02-07 18:51:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-02-07 18:53:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-02-07 20:17:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 20:17:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_the_recipe": "2025-02-07 21:37:32 -0500"
     },
     "done": true
   },
